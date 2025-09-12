@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
+  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="300">
   <br>
 </p>
 
@@ -31,7 +31,7 @@ Together, they form a continuous cycle of learning and strategic action, ensurin
 
 This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
 
-<p align="left">
+<p align="center">
   <img src="./assets/gh-fw.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 1: Product Analytics Framework</em>
