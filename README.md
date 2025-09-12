@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
   <br>
 </p>
