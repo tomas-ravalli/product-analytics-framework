@@ -7,7 +7,6 @@
 
 <p align="left">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
-<img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
 <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
 <img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework?style=social" alt="GitHub Stars">
 </p>
