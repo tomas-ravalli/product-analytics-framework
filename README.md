@@ -46,7 +46,7 @@ This is the foundational layer where we move from raw data to a structured under
 **For a Technical Audience:** This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses. It involves a clear progression from unstructured data to measurable concepts.
 
 <p align="center">
-  <img src="./assets/fw-l1.png" alt="product analytics framework" width="750">
+  <img src="./assets/fw-l3.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 1: Product Analytics Framework</em>
 </p>
@@ -87,7 +87,7 @@ This is the final and most critical layer, where analytical insights are transla
 **For a Technical Audience:** This layer focuses on the translation of validated insights into strategic artifacts and tactical execution. The crucial feedback loop shows that the outcomes of these actions become the input for a new cycle of theoretical evaluation.
 
 <p align="center">
-  <img src="./assets/fw-l3.png" alt="product analytics framework" width="750">
+  <img src="./assets/fw-l1.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 1: Product Analytics Framework</em>
 </p>
