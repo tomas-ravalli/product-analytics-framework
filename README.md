@@ -45,6 +45,12 @@ This is the foundational layer where we move from raw data to a structured under
 
 **For a Technical Audience:** This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses. It involves a clear progression from unstructured data to measurable concepts.
 
+<p align="center">
+  <img src="./assets/fw-l1.png" alt="product analytics framework" width="750">
+  <br>
+  <em>Fig. 1: Product Analytics Framework</em>
+</p>
+
 ### **Main Components:**
 
 * **Exploration:** The process of gathering and exploring Qualitative Data (interviews, surveys) and Quantitative Data (event logs, metrics) to understand the landscape.  
@@ -60,6 +66,12 @@ This is the analytical core where hypotheses are rigorously tested against data.
 
 **For a Technical Audience:** This layer involves applying the appropriate statistical methods to test hypotheses. The choice of method depends on the type of insight required.
 
+<p align="center">
+  <img src="./assets/fw-l2.png" alt="product analytics framework" width="750">
+  <br>
+  <em>Fig. 1: Product Analytics Framework</em>
+</p>
+
 ### **Main Components:**
 
 * **Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
@@ -73,6 +85,12 @@ This is the final and most critical layer, where analytical insights are transla
 **For a Non-Technical Audience:** This is where the proven facts from our analysis lead to real changes: building new features, improving the user experience, and shaping the overall plan for the product.
 
 **For a Technical Audience:** This layer focuses on the translation of validated insights into strategic artifacts and tactical execution. The crucial feedback loop shows that the outcomes of these actions become the input for a new cycle of theoretical evaluation.
+
+<p align="center">
+  <img src="./assets/fw-l3.png" alt="product analytics framework" width="750">
+  <br>
+  <em>Fig. 1: Product Analytics Framework</em>
+</p>
 
 ### **Main Components:**
 
