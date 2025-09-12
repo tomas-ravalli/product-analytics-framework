@@ -2,7 +2,7 @@
 
 <p align="left">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/version-2.0-blue" alt="Version">
+<img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
 </p>
 
 This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
@@ -11,11 +11,11 @@ The framework is organized into three core layers: **Theoretical**, **Inference*
 
 ### **Outline**
 
-* [The Analytics Framework Overview](https://www.google.com/search?q=%23the-analytics-framework-overview)  
-* [Layer 1: The Theoretical Layer (Understanding "Why")](https://www.google.com/search?q=%23layer-1-the-theoretical-layer-understanding-why)  
-* [Layer 2: The Inference Layer (Proving It)](https://www.google.com/search?q=%23layer-2-the-inference-layer-proving-it)  
-* [Layer 3: The Activation Layer (Making It Happen)](https://www.google.com/search?q=%23layer-3-the-activation-layer-making-it-happen)  
-* [References](https://www.google.com/search?q=%23references)
+* [The Analytics Framework Overview](the-analytics-framework-overview)  
+* [Layer 1: The Theoretical Layer (Understanding "Why")](layer-1-the-theoretical-layer-understanding-why)  
+* [Layer 2: The Inference Layer (Proving It)](layer-2-the-inference-layer-proving-it)  
+* [Layer 3: The Activation Layer (Making It Happen)](layer-3-the-activation-layer-making-it-happen)  
+* [References](references)
 
 ## **The Analytics Framework Overview**
 
