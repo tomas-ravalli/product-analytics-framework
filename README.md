@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./assets/paf-l3.png" alt="product analytics framework logo" width="250">
+  <br>
+</p>
+
 # **Product Analytics Framework**
 
 <p align="left">
