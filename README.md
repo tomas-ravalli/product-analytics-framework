@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="200">
+  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="185">
   <br>
 </p>
 
@@ -12,7 +12,7 @@
 
 This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
 
-The framework is organized into three core layers: **Theoretical**, **Inference**, and **Activation**. Together, they form a continuous cycle of learning and strategic action, ensuring that product development is both data-informed and impact-driven.
+The framework is organized into three core layers: **Theory** → **Inference** → **Activation**. Together, they form a continuous cycle of learning and strategic action, ensuring that product development is both data-informed and impact-driven.
 
 ### **Outline**
 
