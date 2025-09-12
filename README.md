@@ -11,24 +11,24 @@ The framework is organized into three core layers: **Theoretical**, **Inference*
 
 ### **Outline**
 
-* [Product Analytics Framework Overview](product-analytics-framework-overview)  
-* [Layer 1: Theory (Understanding "Why")](layer-1-the-theoretical-layer-understanding-why)  
-* [Layer 2: Inference (Proving It)](layer-2-the-inference-layer-proving-it)  
-* [Layer 3: Activation (Making It Happen)](layer-3-the-activation-layer-making-it-happen)  
+* [Framework Overview](framework-overview)  
+* [Layer 1: Theory](layer-1-theory)  
+* [Layer 2: Inference](layer-2-inference)  
+* [Layer 3: Activation](layer-3-activation)  
 * [References](references)
 
-## **The Analytics Framework Overview**
+## **Framework Overview**
 
 This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
 
 <p align="center">
-  <img src="./assets/sb-slss.jpeg" alt="Club members app" width="350">
+  <img src="./assets/gh-fw.png" alt="product analytics framework" width="750">
   <br>
-  <em>Fig. 1: Seat release for multiple matches from the Club's Members App.</em>
+  <em>Fig. 1: Product Analytics Framework</em>
 </p>
 
 
-## **Layer 1: The Theoretical Layer (Understanding "Why")**
+## **Layer 1: Theory**
 
 This is the foundational layer where we move from raw data to a structured understanding of user behavior. Its purpose is to ensure we ask the right questions and form solid theories before jumping to analysis.
 
@@ -43,7 +43,7 @@ This is the foundational layer where we move from raw data to a structured under
 * **Hypothesis Generation:** Translating theories into specific, measurable statements by defining abstract concepts (Conceptualization), determining how to measure them (Operationalization), and creating tangible Metrics.
 
 
-## **Layer 2: The Inference Layer (Proving It)**
+## **Layer 2: Inference**
 
 This is the analytical core where hypotheses are rigorously tested against data. The goal is to generate validated insights by separating statistically significant findings from random noise.
 
@@ -57,7 +57,7 @@ This is the analytical core where hypotheses are rigorously tested against data.
 * **Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
 
 
-## **Layer 3: The Activation Layer (Making It Happen)**
+## **Layer 3: Activation**
 
 This is the final and most critical layer, where analytical insights are translated into tangible business and product actions.
 
