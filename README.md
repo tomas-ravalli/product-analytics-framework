@@ -81,9 +81,12 @@ This is the final and most critical layer, where analytical insights are transla
 * **Action:** The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
 * **Strategic Influence:** The direct impact of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
 
-### **References**
+</br>
 
-* The core principles are adapted from *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights* by Joanne Rodrigues.
+> ### **References**
+> - The core principles are adapted from *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights* by Joanne Rodrigues.
+> - Lean Analytics
+> - Thinking in Systems
 
 </br>
 <p align="center">🌐 © 2025 t.r.</p>
