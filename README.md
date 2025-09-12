@@ -31,7 +31,7 @@ The framework is organized into three core layers: **Theory** → **Inference** 
 This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
 
 <p align="center">
-  <img src="./assets/gh-fw.png" alt="product analytics framework" width="1000">
+  <img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
   <br>
   <em>Fig. 1: Product Analytics Framework</em>
 </p>
