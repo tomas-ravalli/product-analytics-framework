@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
+  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="200">
   <br>
 </p>
 
