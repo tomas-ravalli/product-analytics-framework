@@ -6,13 +6,18 @@
 # **Product Analytics Framework**
 
 <p align="left">
-<img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
+<img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
+<img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
+<img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework?style=social" alt="GitHub Stars">
 </p>
 
 This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
 
-The framework is organized into three core layers: **Theory** → **Inference** → **Activation**. Together, they form a continuous cycle of learning and strategic action, ensuring that product development is both data-informed and impact-driven.
+The framework is organized into three core layers: 
+**Theory** → **Inference** → **Activation**. 
+
+Together, they form a continuous cycle of learning and strategic action, ensuring that product development is both data-informed and impact-driven.
 
 ### **Outline**
 
