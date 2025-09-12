@@ -11,10 +11,10 @@ The framework is organized into three core layers: **Theoretical**, **Inference*
 
 ### **Outline**
 
-* [The Analytics Framework Overview](the-analytics-framework-overview)  
-* [Layer 1: The Theoretical Layer (Understanding "Why")](layer-1-the-theoretical-layer-understanding-why)  
-* [Layer 2: The Inference Layer (Proving It)](layer-2-the-inference-layer-proving-it)  
-* [Layer 3: The Activation Layer (Making It Happen)](layer-3-the-activation-layer-making-it-happen)  
+* [Product Analytics Framework Overview](product-analytics-framework-overview)  
+* [Layer 1: Theory (Understanding "Why")](layer-1-the-theoretical-layer-understanding-why)  
+* [Layer 2: Inference (Proving It)](layer-2-the-inference-layer-proving-it)  
+* [Layer 3: Activation (Making It Happen)](layer-3-the-activation-layer-making-it-happen)  
 * [References](references)
 
 ## **The Analytics Framework Overview**
