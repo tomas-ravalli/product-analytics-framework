@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
   </br>
-  <a href="./README.md">English</a> |
+  <a href="./README.md">English</a>  |
   <a href="./README-es.md">Español</a>
 </p>
 
