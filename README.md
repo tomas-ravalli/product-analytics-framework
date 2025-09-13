@@ -8,7 +8,6 @@
 # **Product Analytics Framework**
 <p align="left">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
-<img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
 <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
 </p>
 
