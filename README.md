@@ -4,11 +4,13 @@
 </p>
 
 # **Product Analytics Framework**
-<p align="center">
-<img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
-</br>
+<p align="left">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
+</p>
+
+<p align="center">
+<img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
 </p>
 
 This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap. The framework is organized into three core layers: 
@@ -29,9 +31,9 @@ This repository outlines a systematic framework for product analytics. It's a bo
 This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
 
 <p align="center">
-  <img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 1: Product Analytics Framework</em>
+<img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 1: Product Analytics Framework</em>
 </p>
 
 ---
