@@ -168,7 +168,7 @@ This is the final and most critical layer, where analytical insights are transla
 
 * **Actionable Insights** (L3·1): The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
 * **Action** (L3·2): The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
-* **Strategic Influence** (L3·3): The direct impact of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
+* **Product Strategy** (L3·3): The strategic influence of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
 
 ### Actionable Insights (L3·1)
 
