@@ -61,47 +61,34 @@ This is the foundational layer where we move from raw data to a structured under
 
 This initial phase is about gathering the raw materials for theory building. It involves a partnership between qualitative and quantitative disciplines to get a holistic view of the user experience.
 
-* **Qualitative Data:** This provides the "why" behind user actions. It includes insights gathered from methods that explore user motivations, opinions, and feelings, which are often not captured in event logs.
-    * **Source:** Typically driven by UX Researchers.
-    * **Examples:** User interviews, surveys, focus group feedback, support tickets, app store reviews.
-    * **Purpose:** To understand user goals, motivations, and pain points that are vital for explaining behavior but often left out of quantitative analyses.
+| Data Type | Description | Source | Examples | Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **Qualitative Data** | Provides the "why" behind user actions. It includes insights gathered from methods that explore user motivations, opinions, and feelings. | Typically driven by UX Researchers. | User interviews, surveys, focus group feedback, support tickets, app store reviews. | To understand user goals, motivations, and pain points that are vital for explaining behavior. |
+| **Quantitative Data** | Provides the "what" and "how" of user behavior at scale. It consists of measurable, logged events within the product. | Typically managed and surfaced by Data Scientists or Analysts. | Clickstream data, user session data, purchase history, feature adoption rates, and churn rates. | To describe what users are doing in aggregate, identify patterns, and provide hard numbers for rigorous analysis. |
 
-* **Quantitative Data:** This provides the "what" and "how" of user behavior at scale. It consists of measurable, logged events within the product.
-    * **Source:** Typically managed and surfaced by Data Scientists or Analysts.
-    * **Examples:** Clickstream data (the path of clicks a user takes) , user session data, purchase history, feature adoption rates, and churn rates.
-    * **Purpose:** To describe what users are doing in aggregate, identify patterns, and provide the hard numbers needed for rigorous analysis.
+<br>
 
 ### **Theory Building**
 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
 
-* **Descriptive (5W1H):** This is the first step in formalizing understanding by answering the core journalistic questions: Who, What, Where, When, Why, and How.
-    * **Example:** *Who* are our most engaged users? *What* features do they use? *When* during the day are they most active? *Where* in the user funnel do they drop off? *How* do they navigate from the homepage to a key feature? *Why* do we believe they are taking this path?
-    * **Purpose:** To create a comprehensive, descriptive foundation before attempting to explain causal links.
+| Component | Description | Example | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Descriptive (5W1H)** | The first step in formalizing understanding by answering the core journalistic questions: Who, What, Where, When, Why, and How. | *Who* are our most engaged users? *What* features do they use? *Where* in the user funnel do they drop off? | To create a comprehensive, descriptive foundation before attempting to explain causal links. |
+| **Relationships & Mechanisms** | Moves beyond simple description to define connections between behaviors and propose the mechanisms driving them. | We observe a positive correlation between Feature A usage and retention. The proposed *mechanism* is that Feature A builds social ties, increasing switching costs. | To form the core of a causal argument that can be tested later. |
+| **User & Behavior Typologies** | The practice of categorizing users or behaviors into distinct groups to manage complexity and generalize findings. | "Whales and wallflowers" model; Social behavior typology (Active/Passive & Incoming/Outgoing). | To build more nuanced models that recognize different user segments have different needs and behaviors. |
 
-* **Relationships & Mechanisms:** This involves moving beyond simple description to define connections between different behaviors and propose the mechanisms driving them. A mechanism explains *how* a cause leads to an effect.
-    * **Example:** We observe that users who use Feature A are retained longer. A *relationship* is the positive correlation. The proposed *mechanism* could be that Feature A helps users build a social network, and those social ties create a high switching cost, thus improving retention.
-    * **Purpose:** To form the core of a causal argument that can be tested later.
-
-* **User & Behavior Typologies:** This is the practice of categorizing users or behaviors into distinct groups to manage complexity and generalize findings. Instead of treating all users as a monolith, we segment them into meaningful archetypes.
-    * **Example:** The book describes a social behavior typology that breaks interactions into four types: Active Outgoing (e.g., sending a message), Passive Outgoing (e.g., viewing a profile), Active Incoming (e.g., receiving a like), and Passive Incoming (e.g., having your post read)[cite: 345, 346, 347]. Another example is the "whales and wallflowers" model, where a small number of users create most of the content (whales) while the majority passively consumes it (wallflowers).
-    * **Purpose:** To build more nuanced models that recognize different user segments have different needs and behaviors.
+<br>
 
 ### **Hypothesis Generation**
 
-This is the final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing. This process follows a clear sequence:
+This is the final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing.
 
-* **Conceptualization:** The process of clearly defining abstract, often intangible, ideas. Many important product concepts like "user engagement," "product stickiness," or "user delight" are abstract and must be defined before they can be measured.
-    * **Example:** To test a theory about "user engagement," we must first define it. *Conceptualization*: "User engagement is a user's level of active and repeated interaction with core product features.".
-    * **Purpose:** To create a shared and precise understanding of the abstract concepts in our theory.
-
-* **Operationalization:** The process of determining how a defined concept can be measured. It breaks a single concept into its measurable dimensions.
-    * **Example:** Following the engagement concept, *Operationalization* would involve deciding which dimensions to measure: (1) frequency of visits, (2) breadth of features used, and (3) depth of interaction with a key feature.
-    * **Purpose:** To create a clear strategy for how to quantify an abstract idea.
-
-* **Metrics Creation:** The final step is creating the specific, tangible indicators for each dimension. These can be different types of variables, such as real-valued (e.g., time on site), ordinal (e.g., user satisfaction rating from 1-5), or nominal (e.g., user segment).
-    * **Example:** For the engagement dimensions above, *Metrics* would be: (1) Daily Active Users (DAU), (2) Number of core features used per session, and (3) Average number of comments per user per week.
-    * **Purpose:** To produce the final, quantifiable metrics that will be used to test the hypothesis.
+| Process | Description | Example | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Conceptualization** | Clearly defining abstract, often intangible, ideas like "user engagement" or "product stickiness". | *Conceptualization*: "User engagement is a user's level of active and repeated interaction with core product features." | To create a shared and precise understanding of the abstract concepts in our theory. |
+| **Operationalization** | Determining how a defined concept can be measured by breaking it into its measurable dimensions. | *Operationalization*: Measuring engagement via (1) frequency of visits, (2) breadth of features used, and (3) depth of interaction. | To create a clear strategy for how to quantify an abstract idea. |
+| **Metrics Creation** | Creating the specific, tangible indicators for each dimension, which can be different types of variables (real-valued, ordinal, etc.). | *Metrics*: (1) Daily Active Users (DAU), (2) Number of core features used per session, (3) Average comments per week. | To produce the final, quantifiable metrics that will be used to test the hypothesis. |
 
 This structured process ensures that by the time we exit the Theory Layer, we have a clear, testable hypothesis grounded in both qualitative and quantitative exploration, ready for the rigor of the Inference Layer.
 
@@ -111,6 +98,12 @@ This is the analytical core where hypotheses are rigorously tested against data.
 This is where we put our theories to the test with data. We run analyses and experiments to get proven facts that we can confidently act on.
 This layer involves applying the appropriate statistical methods to test hypotheses. The choice of method depends on the type of insight required.
 This is the analytical core where hypotheses generated in the Theory Layer are rigorously tested against data. The primary goal is to generate validated insights by separating statistically significant findings from random noise. This layer applies the appropriate statistical methods to test hypotheses and generate one of four types of insights: Observational, Comparative, Causal, or Predictive.
+
+<p align="center">
+  <img src="./assets/fw-l2.png" alt="product analytics framework" width="750">
+  <br>
+  <em>Fig. 3: Inference Layer (L2)</em>
+</p>
 
 ### **Foundational Analysis**
 
@@ -151,11 +144,6 @@ This is the toolkit for answering complex strategic questions that go beyond sim
     * **Purpose:** To move beyond aggregate effects and understand heterogeneous treatment effects (how a change impacts different user segments differently).
     * **Example:** Using **Uplift Modeling**, which combines experimental data with predictive models to identify the "persuadable" users—those whose behavior is most likely to be changed by a marketing message or product feature. This allows you to target interventions only at the users who will be positively influenced.
 
-<p align="center">
-  <img src="./assets/fw-l2.png" alt="product analytics framework" width="750">
-  <br>
-  <em>Fig. 3: Inference Layer (L2)</em>
-</p>
 
 ### **Main Components:**
 
@@ -247,9 +235,9 @@ This loop operates within the Theory Layer and is the core of the framework's "s
 </br>
 
 > ### **References**
-> - *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights* by Joanne Rodrigues.
-> - Lean Analytics
-> - Thinking in Systems
+> * Rodrigues, J. (2021). *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights*. Addison-Wesley.
+> * Croll, A., & Yoskovitz, B. (2013). *Lean Analytics: Use Data to Build a Better Startup Faster*. O'Reilly Media.
+> * Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
 
 </br>
 <p align="center">🌐 © 2025 t.r.</p>
