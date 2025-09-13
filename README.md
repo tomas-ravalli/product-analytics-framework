@@ -105,50 +105,31 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
   <em>Fig. 3: Inference Layer (L2)</em>
 </p>
 
+### **Main Components:**
+
+* **Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
+* **Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
+
 ### **Foundational Analysis**
 
 This is the engine for day-to-day business intelligence and hypothesis validation. It uses fundamental statistical techniques to describe the current state of the product and its users, generating **Observational** and **Comparative** insights.
 
-* **Descriptive Statistics:** This involves summarizing and describing the main features of a dataset. It provides a quantitative overview of "what is happening".
-    * **Purpose:** To condense large volumes of data into simple, digestible summaries like the mean, median, or variance.
-    * **Example:** Calculating the average revenue per user (ARPU) , the median number of sessions per week, or the distribution of user ages.
-
-* **Exploratory Data Analysis (EDA):** This is the process of visualizing data to discover patterns, spot anomalies, and check assumptions. It's a visual approach to understanding the structure of the data.
-    * **Purpose:** To identify relationships between variables and guide the selection of appropriate statistical models.
-    * **Example:** Creating a histogram of session durations to see if the distribution is normal or exponential , or a scatter plot to visualize the relationship between time spent in the app and total money spent.
-
-* **Basic Statistical Tests:** These are used to make inferences about a population based on a sample of data. They help determine if observed differences are statistically significant or likely due to random chance.
-    * **Purpose:** To validate comparative hypotheses.
-    * **Example:** Using a **t-test** to determine if the average spend of users from the US is significantly different from that of users from Canada , or a **chi-squared test** to see if the proportion of users who complete onboarding is different between iOS and Android.
+| Method | Description | Purpose | Example |
+| :--- | :--- | :--- | :--- |
+| **Descriptive Statistics** | Summarizes and describes the main features of a dataset, providing a quantitative overview of "what is happening". | To condense large volumes of data into simple summaries like the mean, median, or variance. | Calculating the average revenue per user (ARPU), the median number of sessions per week, or the distribution of user ages. |
+| **Exploratory Data Analysis (EDA)** | The process of visualizing data to discover patterns, spot anomalies, and check assumptions. | To identify relationships between variables and guide the selection of appropriate statistical models. | Creating a histogram of session durations to see if the distribution is normal or exponential, or a scatter plot to visualize relationships. |
+| **Basic Statistical Tests** | Used to make inferences about a population from a sample, determining if observed differences are statistically significant. | To validate comparative hypotheses. | Using a **t-test** to compare average spend between two user groups, or a **chi-squared test** to compare conversion rates. |
 
 ### **Advanced Modeling**
 
 This is the toolkit for answering complex strategic questions that go beyond simple description. It uses more sophisticated techniques to understand causality and predict future behavior, generating **Causal** and **Predictive** insights.
 
-* **Experimentation (A/B Testing):** This is the gold standard for establishing causal relationships. It involves randomly assigning users to a control group and one or more treatment groups to measure the impact of a specific change.
-    * **Purpose:** To isolate the causal effect of a single variable (e.g., a new feature or a design change) on a key metric.
-    * **Example:** Randomly showing 50% of users a green "Buy Now" button (treatment) and 50% a blue one (control) to determine which color *causes* a higher click-through rate.
-
-* **Quasi-experiments:** These are methods used to estimate causal effects when true randomization isn't feasible. They leverage naturally occurring circumstances to mimic a randomized experiment.
-    * **Purpose:** To infer causality from observational data by controlling for selection bias.
-    * **Examples:**
-        * **Difference-in-Difference (DiD):** Comparing the change in a metric over time between a group that received a treatment (e.g., saw a new marketing campaign in their city) and a similar group that did not.
-        * **Regression Discontinuity (RD):** Analyzing users right around a specific cutoff point for receiving a treatment (e.g., comparing users who just barely qualified for a "power user" badge with those who just missed it).
-        * **Statistical Matching:** Creating a synthetic control group by finding non-treated users who are very similar to treated users across a range of characteristics.
-
-* **Predictive Modeling / Machine Learning:** This involves using algorithms to learn patterns from historical data to make forecasts about future events. This is focused on correlation, not causation.
-    * **Purpose:** To predict user behavior, such as churn risk, lifetime value, or the likelihood of adopting a new feature.
-    * **Example:** Building a logistic regression model to predict the probability that a new user will churn within their first 30 days based on their onboarding behavior.
-
-* **Explanatory Modeling:** This bridges the gap between predictive and causal analysis. It uses models to explain *why* an outcome occurred or *which* users are most affected by an intervention.
-    * **Purpose:** To move beyond aggregate effects and understand heterogeneous treatment effects (how a change impacts different user segments differently).
-    * **Example:** Using **Uplift Modeling**, which combines experimental data with predictive models to identify the "persuadable" users—those whose behavior is most likely to be changed by a marketing message or product feature. This allows you to target interventions only at the users who will be positively influenced.
-
-
-### **Main Components:**
-
-* **Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
-* **Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
+| Method | Description | Purpose | Example |
+| :--- | :--- | :--- | :--- |
+| **Experimentation (A/B Testing)** | The gold standard for establishing causal relationships by randomly assigning users to control and treatment groups. | To isolate the causal effect of a single variable (e.g., a new feature) on a key metric. | Randomly showing 50% of users a green button and 50% a blue one to determine which color *causes* a higher click-through rate. |
+| **Quasi-experiments** | Methods used to estimate causal effects when true randomization isn't feasible, leveraging naturally occurring circumstances. | To infer causality from observational data by controlling for selection bias. | **Difference-in-Difference (DiD)**, **Regression Discontinuity (RD)**, or **Statistical Matching**. |
+| **Predictive Modeling / Machine Learning** | Using algorithms to learn patterns from historical data to make forecasts about future events. This is focused on correlation, not causation. | To predict user behavior, such as churn risk, lifetime value, or the likelihood of adopting a new feature. | Building a logistic regression model to predict the probability that a new user will churn within their first 30 days. |
+| **Explanatory Modeling** | Bridges the gap between predictive and causal analysis, explaining *why* an outcome occurred or *which* users are most affected. | To understand heterogeneous treatment effects (how a change impacts different user segments differently). | Using **Uplift Modeling** to identify "persuadable" users whose behavior is most likely to be changed by a marketing message. |
 
 ## **Layer 3: Activation**
 
@@ -163,47 +144,45 @@ This is the final and most critical layer, where analytical insights are transla
   <em>Fig. 4: Activation Layer (L3)</em>
 </p>
 
-### **Actionable Insights (Input)**
-
-This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product or organization. These insights are the fuel for the Activation Layer and are typically categorized into four types:
-
-* **Observational:** Insights based on the description of a phenomenon, such as "Users spend the most time on the homepage". These often lead to tactical improvements.
-* **Comparative:** Insights related to a comparison between two or more groups, such as "Users acquired via Google have a 10% higher retention rate than users from Facebook". These often prompt further causal investigation.
-* **Causal:** The most powerful insights, which identify a cause-and-effect relationship, such as "Showing users a promotional banner *causes* them to purchase handbags". These lead directly to feature or campaign decisions.
-* **Predictive:** Insights related to future events, such as "Our current user growth rate indicates we will need a 5x larger server capacity by Q4". These are crucial for strategic planning and resource allocation.
-
----
-
-### **Action**
-
-An **Action** is the concrete implementation of an insight. It is the bridge between the analytical world and the live product. The success of the entire framework hinges on the ability to effectively translate insights into well-executed actions.
-
-* **Purpose:** To change some aspect of the user experience, product functionality, or business process with the goal of improving key metrics.
-* **Examples:**
-    * **Insight (Causal):** An A/B test proves a simplified sign-up form increases conversion by 15%.
-    * **Action:** Shipping the simplified sign-up form to 100% of users.
-    * **Insight (Observational):** A user funnel analysis shows a 60% drop-off on the payment screen.
-    * **Action:** Prioritizing a redesign of the payment screen in the next product sprint.
-    * **Insight (Predictive):** A churn model identifies a segment of high-value users at risk of leaving.
-    * **Action:** Launching a targeted re-engagement campaign with special offers for that specific user segment.
-
-### **Strategic Influence (Output)**
-
-The actions taken based on insights directly influence and shape the product's direction at all levels, from high-level vision to day-to-day execution. This component ensures that the product evolves based on evidence rather than solely on intuition.
-
-* **Product Strategy:** This is the high-level plan for achieving the product's vision. Actionable insights should validate or challenge the core assumptions of the strategy. A stream of insights showing users care more about collaboration than speed could pivot the entire product strategy.
-* **Product Roadmap:** This is the time-based plan for what features and initiatives will be built. Validated insights provide the evidence needed to prioritize one feature over another, ensuring that development resources are focused on initiatives with the highest expected impact.
-* **Product Tactics:** These are the smaller-scale, often short-term decisions made to achieve the roadmap's goals. An insight might lead to a tactical change in a user flow, a new piece of UI copy, or a change in a notification's timing.
-
 ### **Main Components:**
 
 * **Actionable Insights:** The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
 * **Action:** The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
 * **Strategic Influence:** The direct impact of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
 
+### **Actionable Insights (Input)**
+
+This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product or organization. These insights are the fuel for the Activation Layer.
+
+| Insight Type | Description | Typical Outcome |
+| :--- | :--- | :--- |
+| **Observational** | Based on the description of a phenomenon. | Leads to tactical improvements (e.g., "Users spend the most time on the homepage, let's improve its design"). |
+| **Comparative** | Related to a comparison between two or more groups. | Prompts further causal investigation (e.g., "Google users retain better than Facebook users, let's find out why"). |
+| **Causal** | Identifies a cause-and-effect relationship. | Directly informs feature or campaign decisions (e.g., "Banner A *causes* more signups than Banner B, let's use Banner A"). |
+| **Predictive** | Related to forecasting future events. | Crucial for strategic planning and resource allocation (e.g., "We will need 5x server capacity by Q4"). |
+
+### **Action**
+
+An **Action** is the concrete implementation of an insight. It is the bridge between the analytical world and the live product. The success of the entire framework hinges on the ability to effectively translate insights into well-executed actions.
+
+| Component | Description |
+| :--- | :--- |
+| **Purpose** | To change some aspect of the user experience, product functionality, or business process with the goal of improving key metrics. |
+| **Examples** | <ul><li>**Causal Insight:** An A/B test proves a simplified sign-up form increases conversion by 15%. → **Action:** Ship the new form to 100% of users.</li><li>**Observational Insight:** A user funnel analysis shows a 60% drop-off on the payment screen. → **Action:** Prioritize a redesign of the payment screen.</li><li>**Predictive Insight:** A churn model identifies a segment of at-risk users. → **Action:** Launch a targeted re-engagement campaign for that segment.</li></ul> |
+
+### **Strategic Influence (Output)**
+
+The actions taken based on insights directly influence and shape the product's direction at all levels, from high-level vision to day-to-day execution. This component ensures that the product evolves based on evidence rather than solely on intuition.
+
+| Strategic Artifact | Description | Impact of Insights |
+| :--- | :--- | :--- |
+| **Product Strategy** | The high-level plan for achieving the product's vision. | Insights validate or challenge the core assumptions of the strategy, potentially leading to major pivots. |
+| **Product Roadmap** | The time-based plan for what features and initiatives will be built. | Insights provide the evidence needed to prioritize one feature over another, focusing resources on the highest-impact work. |
+| **Product Tactics** | The smaller-scale, often short-term decisions made to achieve the roadmap's goals. | An insight can directly lead to a tactical change in a user flow, UI copy, or notification timing. |
+
 ## Feedback Loops
 
-The Product Analytics Framework is not a linear, one-time process. It is a dynamic and iterative system designed for continuous learning and adaptation. Its power comes from the feedback loops that connect the layers, ensuring that product decisions become progressively smarter over time. There are three primary feedback loops that drive this cycle.
+The Product Analytics Framework is not a linear, one-time process. It is a dynamic and iterative system designed for continuous learning and adaptation. Its power comes from the three feedback loops that connect the layers, ensuring that product decisions become progressively smarter over time.
 
 <p align="center">
   <img src="./assets/gh-fw.png" alt="product analytics framework with feedback loops highlighted" width="800">
@@ -211,26 +190,11 @@ The Product Analytics Framework is not a linear, one-time process. It is a dynam
   <em>Fig. 5: The Three Feedback Loops of the Framework</em>
 </p>
 
-### **Loop 1: Activation → Theory**
-
-This is the primary feedback loop that drives the entire product development process. It connects the outcome of an action back to the very beginning of the framework.
-
-* **How it works:** Every **Action** taken in the Activation Layer (e.g., shipping a new feature, changing a user flow) generates new quantitative and qualitative data. The results of this action–how users adopt the feature, what they say about it, and how it impacts key metrics–become the raw material for a new cycle of **Exploration** in the Theory Layer.
-* **Purpose:** This loop ensures that the product evolves based on real-world evidence. It validates whether the strategic and tactical decisions were effective and provides the foundation for the next round of theory-building and hypothesis generation. This is the engine of iterative product development.
-
-### **Loop 2: Advanced → Foundational**
-
-This loop operates entirely within the Inference Layer, representing the iterative nature of the analytical process itself.
-
-* **How it works:** Findings from **Advanced Modeling** often generate new questions that require a return to **Foundational Analysis**. For example, an explanatory model might reveal that a certain user segment responds negatively to a change. This insight would trigger a new round of Exploratory Data Analysis (EDA) and Descriptive Statistics to understand the unique characteristics and behaviors of that specific segment.
-* **Purpose:** This loop deepens analytical understanding. It ensures that complex, high-level findings are grounded in a solid descriptive context, preventing insights from being interpreted in a vacuum.
-
-### **Loop 3: Hypothesis → Theory**
-
-This loop operates within the Theory Layer and is the core of the framework's "scientific method" approach. It ensures that our understanding of the user is constantly being refined.
-
-* **How it works:** The process of **Hypothesis Generation** and subsequent testing in the Inference Layer may invalidate a core assumption. When a key hypothesis is proven false, it signals a flaw in the underlying **Theory**. The team must then revisit their conceptual models, user typologies, or understanding of behavioral mechanisms to build a more accurate theory that fits the evidence.
-* **Purpose:** This loop makes the framework self-correcting. It forces a disciplined re-evaluation of assumptions, ensuring that the team's "mental model" of the user and the product becomes more accurate and reliable with each cycle.
+| Loop | Type | Description | Purpose |
+| :--- | :--- | :--- | :--- |
+| **1. The Macro-Cycle** 🔄 | `Activation → Theory` | Every **Action** (e.g., shipping a feature) generates new data and user feedback, which becomes the raw material for a new cycle of **Exploration**. | Drives the iterative evolution of the product by ensuring that real-world outcomes inform the next round of strategic and tactical planning. |
+| **2. The Analytical Cycle** 🔬 | `Advanced → Foundational` | Findings from **Advanced Models** (e.g., an ML model) raise new descriptive questions that are investigated using **Foundational Analysis** (e.g., EDA). | Deepens analytical understanding by ensuring complex findings are grounded in a solid descriptive context, preventing insights from being interpreted in a vacuum. |
+| **3. The Theory Refinement Cycle** 🤔 | `Hypothesis → Theory` | When a key **Hypothesis** is invalidated by testing, it forces a return to **Theory Building** to revise the underlying conceptual models and assumptions. | Makes the framework self-correcting by forcing a disciplined re-evaluation of assumptions, ensuring the team's "mental model" of the user becomes more accurate. |
 
 </br>
 
