@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="300">
+  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="275">
   </br>
   <a href="https://github.com/huggingface/transformers/">English</a> |
   <a href="https://github.com/huggingface/transformers/">Español</a>
