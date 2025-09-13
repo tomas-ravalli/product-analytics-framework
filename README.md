@@ -73,7 +73,7 @@ This initial phase is about gathering the raw materials for theory building. It 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
 
 <p align="center">
-  <img src="./assets/theory-building.png" alt="product analytics framework" width="300">
+  <img src="./assets/theory-building.png" alt="product analytics framework" width="400">
   <br>
   <em>Fig. 4: Theory Layer (L1) – Theory Building</em>
 </p>
