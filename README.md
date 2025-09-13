@@ -248,8 +248,8 @@ The framework is not a linear process but a dynamic cycle. Below are three of th
 
 This loop uses advanced causal insights to directly improve and validate foundational theories about user behavior.
 
-* **How it works:** Findings from **Explanatory Models** (e.g., discovering *which* user segments are most impacted by a feature) provide deep causal insights that directly challenge or refine the initial **User Typologies** and **Relationships** defined in the Theory Layer.
-* **Purpose:** To ensure the team's "mental model" of its users becomes more nuanced and accurate over time.
+* **What:** Findings from **Explanatory Models** (e.g., discovering *which* user segments are most impacted by a feature) provide deep causal insights that directly challenge or refine the initial **User Typologies** and **Relationships** defined in the Theory Layer.
+* **Why:** To ensure the team's "mental model" of its users becomes more nuanced and accurate over time.
 
 <p align="center">
   <img src="./assets/fbl-1.png" alt="product analytics framework" width="450">
@@ -262,8 +262,8 @@ This loop uses advanced causal insights to directly improve and validate foundat
 
 This loop ensures the highest-level product theories are continuously held accountable to the strongest evidence produced by the framework.
 
-* **How it works:** A significant **Actionable Insight** (especially a surprising causal or predictive finding) can invalidate a core assumption of the entire product theory, forcing a strategic re-evaluation of the foundational understanding of the user and market.
-* **Purpose:** To prevent the team from executing on a fundamentally flawed strategy by validating the core theory with high-confidence insights.
+* **What:** A significant **Actionable Insight** (especially a surprising causal or predictive finding) can invalidate a core assumption of the entire product theory, forcing a strategic re-evaluation of the foundational understanding of the user and market.
+* **Why:** To prevent the team from executing on a fundamentally flawed strategy by validating the core theory with high-confidence insights.
 
 <p align="center">
   <img src="./assets/fbl-2.png" alt="product analytics framework" width="450">
@@ -276,8 +276,8 @@ This loop ensures the highest-level product theories are continuously held accou
 
 This is the primary engine of product development, driving the iterative evolution of the product itself.
 
-* **How it works:** Every **Action** taken in the Activation Layer (e.g., shipping a feature) generates new quantitative (usage data) and qualitative (user feedback) data. This new information becomes the raw material for the next cycle of **Exploration**.
-* **Purpose:** To ensure that the real-world outcomes of every action inform the next round of analysis and strategic planning.
+* **What:** Every **Action** taken in the Activation Layer (e.g., shipping a feature) generates new quantitative (usage data) and qualitative (user feedback) data. This new information becomes the raw material for the next cycle of **Exploration**.
+* **Why:** To ensure that the real-world outcomes of every action inform the next round of analysis and strategic planning.
 
 <p align="center">
   <img src="./assets/fbl-3.png" alt="product analytics framework" width="450">
