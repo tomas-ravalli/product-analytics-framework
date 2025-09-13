@@ -1,23 +1,17 @@
 <p align="center">
-  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="300">
-  <br>
+  <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
+  </br>
+  <a href="https://github.com/huggingface/transformers/">English</a> |
+  <a href="https://github.com/huggingface/transformers/">Español</a>
 </p>
 
-<p align="center">
+# **Product Analytics Framework**
+<p align="left">
   <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
   <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
   <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
   <img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework?style=social" alt="GitHub Stars">
 </p>
-
-<h4  align="center">
-  <p>
-    <a href="https://github.com/huggingface/transformers/">English</a> |
-    <a href="https://github.com/huggingface/transformers/">Español</a>
-  </p>
-</h4>
-
-# **Product Analytics Framework**
 
 This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
 
