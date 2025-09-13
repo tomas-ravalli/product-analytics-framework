@@ -89,7 +89,7 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 This is the final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing.
 
 <p align="center">
-  <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="750">
+  <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="400">
   <br>
   <em>Fig. 5: Theory Layer (L1) – Hypothesis Generation</em>
 </p>
