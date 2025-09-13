@@ -7,6 +7,7 @@
 <p align="left">
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
+<img src="https://img.shields.io/badge/status-active-green" alt="Project Version">
 </p>
 
 <p align="center">
