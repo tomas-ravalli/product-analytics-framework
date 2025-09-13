@@ -1,12 +1,12 @@
 <p align="center">
-<img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
-</br>
 <a href="./README.md">English</a> |
 <a href="./README-es.md">Español</a>
 </p>
 
 # **Product Analytics Framework**
-<p align="left">
+<p align="center">
+<img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
+</br>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
 </p>
