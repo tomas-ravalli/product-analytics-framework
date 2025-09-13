@@ -38,6 +38,7 @@ This framework is the analytical engine for evidence-based product decisions. It
   <em>Fig. 1: Product Analytics Framework</em>
 </p>
 
+---
 
 ## **Layer 1: Theory**
 
@@ -67,8 +68,6 @@ This initial phase is about gathering the raw materials for theory building. It 
 | **Qualitative Data** | Provides the "why" behind user actions. It includes insights gathered from methods that explore user motivations, opinions, and feelings. | Typically driven by UX Researchers. | User interviews, surveys, focus group feedback, support tickets, app store reviews. | To understand user goals, motivations, and pain points that are vital for explaining behavior. |
 | **Quantitative Data** | Provides the "what" and "how" of user behavior at scale. It consists of measurable, logged events within the product. | Typically managed and surfaced by Data Scientists or Analysts. | Clickstream data, user session data, purchase history, feature adoption rates, and churn rates. | To describe what users are doing in aggregate, identify patterns, and provide hard numbers for rigorous analysis. |
 
-<br>
-
 ### (L1·2) Theory Building
 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
@@ -78,8 +77,6 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 | **Descriptive (5W1H)** | The first step in formalizing understanding by answering the core journalistic questions: Who, What, Where, When, Why, and How. | *Who* are our most engaged users? *What* features do they use? *Where* in the user funnel do they drop off? | To create a comprehensive, descriptive foundation before attempting to explain causal links. |
 | **Relationships & Mechanisms** | Moves beyond simple description to define connections between behaviors and propose the mechanisms driving them. | We observe a positive correlation between Feature A usage and retention. The proposed *mechanism* is that Feature A builds social ties, increasing switching costs. | To form the core of a causal argument that can be tested later. |
 | **User & Behavior Typologies** | The practice of categorizing users or behaviors into distinct groups to manage complexity and generalize findings. | "Whales and wallflowers" model; Social behavior typology (Active/Passive & Incoming/Outgoing). | To build more nuanced models that recognize different user segments have different needs and behaviors. |
-
-<br>
 
 ### (L1·3) Hypothesis Generation
 
@@ -92,6 +89,8 @@ This is the final step in the Theory Layer, where abstract theories are translat
 | **Metrics Creation** | Creating the specific, tangible indicators for each dimension, which can be different types of variables (real-valued, ordinal, etc.). | *Metrics*: (1) Daily Active Users (DAU), (2) Number of core features used per session, (3) Average comments per week. | To produce the final, quantifiable metrics that will be used to test the hypothesis. |
 
 This structured process ensures that by the time we exit the Theory Layer, we have a clear, testable hypothesis grounded in both qualitative and quantitative exploration, ready for the rigor of the Inference Layer.
+
+---
 
 ## Layer 2: Inference
 
@@ -131,6 +130,8 @@ This is the toolkit for answering complex strategic questions that go beyond sim
 | **Quasi-experiments** | Methods used to estimate causal effects when true randomization isn't feasible, leveraging naturally occurring circumstances. | To infer causality from observational data by controlling for selection bias. | **Difference-in-Difference (DiD)**, **Regression Discontinuity (RD)**, or **Statistical Matching**. |
 | **Predictive Modeling / Machine Learning** | Using algorithms to learn patterns from historical data to make forecasts about future events. This is focused on correlation, not causation. | To predict user behavior, such as churn risk, lifetime value, or the likelihood of adopting a new feature. | Building a logistic regression model to predict the probability that a new user will churn within their first 30 days. |
 | **Explanatory Modeling** | Bridges the gap between predictive and causal analysis, explaining *why* an outcome occurred or *which* users are most affected. | To understand heterogeneous treatment effects (how a change impacts different user segments differently). | Using **Uplift Modeling** to identify "persuadable" users whose behavior is most likely to be changed by a marketing message. |
+
+---
 
 ## **Layer 3: Activation**
 
@@ -181,12 +182,14 @@ The actions taken based on insights directly influence and shape the product's d
 | **Product Roadmap** | The time-based plan for what features and initiatives will be built. | Insights provide the evidence needed to prioritize one feature over another, focusing resources on the highest-impact work. |
 | **Product Tactics** | The smaller-scale, often short-term decisions made to achieve the roadmap's goals. | An insight can directly lead to a tactical change in a user flow, UI copy, or notification timing. |
 
+---
+
 ## Feedback Loops
 
 The Product Analytics Framework is not a linear, one-time process. It is a dynamic and iterative system designed for continuous learning and adaptation. Its power comes from the three feedback loops that connect the layers, ensuring that product decisions become progressively smarter over time.
 
 <p align="center">
-  <img src="./assets/gh-fw.png" alt="product analytics framework with feedback loops highlighted" width="800">
+  <img src="./assets/placeholder.png" alt="product analytics framework with feedback loops highlighted" width="800">
   <br>
   <em>Fig. 5: The Three Feedback Loops of the Framework</em>
 </p>
