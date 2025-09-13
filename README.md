@@ -39,9 +39,6 @@ This framework is the analytical engine for evidence-based product decisions. It
 
 ## **Layer 1: Theory**
 
-This is the foundational layer where we move from raw data to a structured understanding of user behavior. Its purpose is to ensure we ask the right questions and form solid theories before jumping to analysis.
-This is the "detective work" phase. We gather clues (both stories and numbers) to form a theory about what's happening and why, before we try to prove it.
-This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses. It involves a clear progression from unstructured data to measurable concepts.
 This is the foundational layer where we move from raw data to a structured understanding of user behavior. Its purpose is to ensure we ask the right questions and form solid theories before jumping to analysis. This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses.
 
 <p align="center">
@@ -91,9 +88,6 @@ This structured process ensures that by the time we exit the Theory Layer, we ha
 
 ## Layer 2: Inference
 
-This is the analytical core where hypotheses are rigorously tested against data. The goal is to generate validated insights by separating statistically significant findings from random noise.
-This is where we put our theories to the test with data. We run analyses and experiments to get proven facts that we can confidently act on.
-This layer involves applying the appropriate statistical methods to test hypotheses. The choice of method depends on the type of insight required.
 This is the analytical core where hypotheses generated in the Theory Layer are rigorously tested against data. The primary goal is to generate validated insights by separating statistically significant findings from random noise. This layer applies the appropriate statistical methods to test hypotheses and generate one of four types of insights: Observational, Comparative, Causal, or Predictive.
 
 <p align="center">
@@ -132,9 +126,6 @@ This is the toolkit for answering complex strategic questions that go beyond sim
 
 ## **Layer 3: Activation**
 
-This is the final and most critical layer, where analytical insights are translated into tangible business and product actions.
-This is where the proven facts from our analysis lead to real changes: building new features, improving the user experience, and shaping the overall plan for the product.
-This layer focuses on the translation of validated insights into strategic artifacts and tactical execution. The crucial feedback loop shows that the outcomes of these actions become the input for a new cycle of theoretical evaluation.
 This is the final and most critical layer, where analytical insights are translated into tangible business and product actions. The goal of this layer is to ensure that the rigorous work done in the Theory and Inference layers leads to meaningful product improvements and strategic alignment. This is where data-informed becomes data-driven.
 
 <p align="center">
