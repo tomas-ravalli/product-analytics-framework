@@ -53,6 +53,11 @@ This is the foundational layer where we move from raw data to a structured under
 * **Theory Building** (L1·2): Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Our users are either 'Explorers' or 'Settlers'").  
 * **Hypothesis Generation** (L1·3): Translating theories into specific, measurable statements by defining abstract concepts (Conceptualization), determining how to measure them (Operationalization), and creating tangible Metrics.
 
+<br>
+
+<details>
+<summary><strong>Click to expand/collapse L1 details</strong></summary>
+
 ### Exploration (L1·1) 
 
 This initial phase is about gathering the raw materials for theory building. It involves a partnership between qualitative and quantitative disciplines to get a holistic view of the user experience.
@@ -100,7 +105,7 @@ This is the final step in the Theory Layer, where abstract theories are translat
 | **Operationalization** | Determining how a defined concept can be measured by breaking it into its measurable dimensions. | *Operationalization*: Measuring engagement via (1) frequency of visits, (2) breadth of features used, and (3) depth of interaction. | To create a clear strategy for how to quantify an abstract idea. |
 | **Metrics Creation** | Creating the specific, tangible indicators for each dimension, which can be different types of variables (real-valued, ordinal, etc.). | *Metrics*: (1) Daily Active Users (DAU), (2) Number of core features used per session, (3) Average comments per week. | To produce the final, quantifiable metrics that will be used to test the hypothesis. |
 
-This structured process ensures that by the time we exit the Theory Layer, we have a clear, testable hypothesis grounded in both qualitative and quantitative exploration, ready for the rigor of the Inference Layer.
+</details>
 
 ---
 
@@ -118,6 +123,11 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
 
 * **Foundational Analysis** (L2·1): The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
 * **Advanced Modeling** (L2·2): The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
+
+<br>
+
+<details>
+<summary><strong>Click to expand/collapse L2 details</strong></summary>
 
 ### Foundational Analysis (L2·1)
 
@@ -152,6 +162,8 @@ This is the toolkit for answering complex strategic questions that go beyond sim
 | **Predictive Modeling / Machine Learning** | Using algorithms to learn patterns from historical data to make forecasts about future events. This is focused on correlation, not causation. | To predict user behavior, such as churn risk, lifetime value, or the likelihood of adopting a new feature. | Building a logistic regression model to predict the probability that a new user will churn within their first 30 days. |
 | **Explanatory Modeling** | Bridges the gap between predictive and causal analysis, explaining *why* an outcome occurred or *which* users are most affected. | To understand heterogeneous treatment effects (how a change impacts different user segments differently). | Using **Uplift Modeling** to identify "persuadable" users whose behavior is most likely to be changed by a marketing message. |
 
+</details>
+
 ---
 
 ## **Layer 3: Activation**
@@ -169,6 +181,11 @@ This is the final and most critical layer, where analytical insights are transla
 * **Actionable Insights** (L3·1): The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
 * **Action** (L3·2): The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
 * **Product Strategy** (L3·3): The strategic influence of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
+
+<br>
+
+<details>
+<summary><strong>Click to expand/collapse L3 details</strong></summary>
 
 ### Actionable Insights (L3·1)
 
@@ -218,6 +235,8 @@ The actions taken based on insights directly influence and shape the product's d
 | **Product Roadmap** | The time-based plan for what features and initiatives will be built. | Insights provide the evidence needed to prioritize one feature over another, focusing resources on the highest-impact work. |
 | **Product Tactics** | The smaller-scale, often short-term decisions made to achieve the roadmap's goals. | An insight can directly lead to a tactical change in a user flow, UI copy, or notification timing. |
 
+</details>
+
 ---
 
 ## Feedback Loops
@@ -227,7 +246,7 @@ The Product Analytics Framework is not a linear, one-time process. It is a dynam
 <p align="center">
   <img src="./assets/placeholder.png" alt="product analytics framework with feedback loops highlighted" width="800">
   <br>
-  <em>Fig. 5: The Three Feedback Loops of the Framework</em>
+  <em>Fig. 13: The Feedback Loops of the Framework</em>
 </p>
 
 | Loop | Type | Description | Purpose |
