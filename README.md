@@ -12,9 +12,8 @@
   <img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
 </p>
 
-This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
-
-The framework is organized into three core layers: **Theory** → **Inference** → **Activation**
+This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap. The framework is organized into three core layers: 
+> **Theory** → **Inference** → **Activation**
 
 ### **Outline**
 
