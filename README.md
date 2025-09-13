@@ -39,15 +39,13 @@ This framework is the analytical engine for evidence-based product decisions. It
 ## **Layer 1: Theory**
 
 This is the foundational layer where we move from raw data to a structured understanding of user behavior. Its purpose is to ensure we ask the right questions and form solid theories before jumping to analysis.
-
-**For a Non-Technical Audience:** This is the "detective work" phase. We gather clues (both stories and numbers) to form a theory about what's happening and why, before we try to prove it.
-
-**For a Technical Audience:** This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses. It involves a clear progression from unstructured data to measurable concepts.
+This is the "detective work" phase. We gather clues (both stories and numbers) to form a theory about what's happening and why, before we try to prove it.
+This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses. It involves a clear progression from unstructured data to measurable concepts.
 
 <p align="center">
   <img src="./assets/fw-l1.png" alt="product analytics framework" width="750">
   <br>
-  <em>Fig. 1: Product Analytics Framework</em>
+  <em>Fig. 2: Theory Layer (L1)</em>
 </p>
 
 ### **Main Components:**
@@ -60,15 +58,13 @@ This is the foundational layer where we move from raw data to a structured under
 ## **Layer 2: Inference**
 
 This is the analytical core where hypotheses are rigorously tested against data. The goal is to generate validated insights by separating statistically significant findings from random noise.
-
-**For a Non-Technical Audience:** This is where we put our theories to the test with data. We run analyses and experiments to get proven facts that we can confidently act on.
-
-**For a Technical Audience:** This layer involves applying the appropriate statistical methods to test hypotheses. The choice of method depends on the type of insight required.
+This is where we put our theories to the test with data. We run analyses and experiments to get proven facts that we can confidently act on.
+This layer involves applying the appropriate statistical methods to test hypotheses. The choice of method depends on the type of insight required.
 
 <p align="center">
   <img src="./assets/fw-l2.png" alt="product analytics framework" width="750">
   <br>
-  <em>Fig. 1: Product Analytics Framework</em>
+  <em>Fig. 3: Inference Layer (L2)</em>
 </p>
 
 ### **Main Components:**
@@ -80,15 +76,13 @@ This is the analytical core where hypotheses are rigorously tested against data.
 ## **Layer 3: Activation**
 
 This is the final and most critical layer, where analytical insights are translated into tangible business and product actions.
-
-**For a Non-Technical Audience:** This is where the proven facts from our analysis lead to real changes: building new features, improving the user experience, and shaping the overall plan for the product.
-
-**For a Technical Audience:** This layer focuses on the translation of validated insights into strategic artifacts and tactical execution. The crucial feedback loop shows that the outcomes of these actions become the input for a new cycle of theoretical evaluation.
+This is where the proven facts from our analysis lead to real changes: building new features, improving the user experience, and shaping the overall plan for the product.
+This layer focuses on the translation of validated insights into strategic artifacts and tactical execution. The crucial feedback loop shows that the outcomes of these actions become the input for a new cycle of theoretical evaluation.
 
 <p align="center">
   <img src="./assets/fw-l3.png" alt="product analytics framework" width="750">
   <br>
-  <em>Fig. 1: Product Analytics Framework</em>
+  <em>Fig. 4: Activation Layer (L3)</em>
 </p>
 
 ### **Main Components:**
@@ -100,7 +94,7 @@ This is the final and most critical layer, where analytical insights are transla
 </br>
 
 > ### **References**
-> - The core principles are adapted from *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights* by Joanne Rodrigues.
+> - *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights* by Joanne Rodrigues.
 > - Lean Analytics
 > - Thinking in Systems
 
