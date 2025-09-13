@@ -58,7 +58,7 @@ This is the foundational layer where we move from raw data to a structured under
 This initial phase is about gathering the raw materials for theory building. It involves a partnership between qualitative and quantitative disciplines to get a holistic view of the user experience.
 
 <p align="center">
-  <img src="./assets/exploration.png" alt="product analytics framework" width="700">
+  <img src="./assets/exploration.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 3: Theory Layer (L1) – Exploration</em>
 </p>
@@ -73,7 +73,7 @@ This initial phase is about gathering the raw materials for theory building. It 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
 
 <p align="center">
-  <img src="./assets/theory-building.png" alt="product analytics framework" width="700">
+  <img src="./assets/theory-building.png" alt="product analytics framework" width="300">
   <br>
   <em>Fig. 4: Theory Layer (L1) – Theory Building</em>
 </p>
@@ -89,9 +89,9 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 This is the final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing.
 
 <p align="center">
-  <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="700">
+  <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="750">
   <br>
-  <em>Fig. 5: Theory Layer (L1) – Hypothesis Testing</em>
+  <em>Fig. 5: Theory Layer (L1) – Hypothesis Generation</em>
 </p>
 
 | Process | Description | Example | Purpose |
@@ -124,7 +124,7 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
 This is the engine for day-to-day business intelligence and hypothesis validation. It uses fundamental statistical techniques to describe the current state of the product and its users, generating **Observational** and **Comparative** insights.
 
 <p align="center">
-  <img src="./assets/foundational-analysis.png" alt="product analytics framework" width="700">
+  <img src="./assets/foundational-analysis.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 7: Inference Layer (L2) – Foundational Analysis</em>
 </p>
@@ -140,7 +140,7 @@ This is the engine for day-to-day business intelligence and hypothesis validatio
 This is the toolkit for answering complex strategic questions that go beyond simple description. It uses more sophisticated techniques to understand causality and predict future behavior, generating **Causal** and **Predictive** insights.
 
 <p align="center">
-  <img src="./assets/advanced-modeling.png" alt="product analytics framework" width="700">
+  <img src="./assets/advanced-modeling.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 8: Inference Layer (L2) – Advanced Modeling</em>
 </p>
@@ -175,7 +175,7 @@ This is the final and most critical layer, where analytical insights are transla
 This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product or organization. These insights are the fuel for the Activation Layer.
 
 <p align="center">
-  <img src="./assets/actionable-insights.png" alt="product analytics framework" width="700">
+  <img src="./assets/actionable-insights.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 10: Activation Layer (L3) – Actionable Insights</em>
 </p>
@@ -192,7 +192,7 @@ This component represents the validated, high-confidence outputs from the Infere
 An **Action** is the concrete implementation of an insight. It is the bridge between the analytical world and the live product. The success of the entire framework hinges on the ability to effectively translate insights into well-executed actions.
 
 <p align="center">
-  <img src="./assets/action.png" alt="product analytics framework" width="700">
+  <img src="./assets/action.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 11: Activation Layer (L3) – Action</em>
 </p>
@@ -207,7 +207,7 @@ An **Action** is the concrete implementation of an insight. It is the bridge bet
 The actions taken based on insights directly influence and shape the product's direction at all levels, from high-level vision to day-to-day execution. This component ensures that the product evolves based on evidence rather than solely on intuition.
 
 <p align="center">
-  <img src="./assets/product-strategy.png" alt="product analytics framework" width="700">
+  <img src="./assets/product-strategy.png" alt="product analytics framework" width="750">
   <br>
   <em>Fig. 12: Activation Layer (L3) – Product Strategy</em>
 </p>
