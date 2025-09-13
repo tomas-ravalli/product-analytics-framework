@@ -54,11 +54,11 @@ This is the foundational layer where we move from raw data to a structured under
 
 ### **Main Components:**
 
-* **Exploration:** The process of gathering and exploring Qualitative Data (interviews, surveys) and Quantitative Data (event logs, metrics) to understand the landscape.  
-* **Theory Building:** Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Our users are either 'Explorers' or 'Settlers'").  
-* **Hypothesis Generation:** Translating theories into specific, measurable statements by defining abstract concepts (Conceptualization), determining how to measure them (Operationalization), and creating tangible Metrics.
+* **(L1·1) Exploration:** The process of gathering and exploring Qualitative Data (interviews, surveys) and Quantitative Data (event logs, metrics) to understand the landscape.  
+* **(L1·2) Theory Building:** Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Our users are either 'Explorers' or 'Settlers'").  
+* **(L1·3) Hypothesis Generation:** Translating theories into specific, measurable statements by defining abstract concepts (Conceptualization), determining how to measure them (Operationalization), and creating tangible Metrics.
 
-### **Exploration**
+### **(L1·1) Exploration**
 
 This initial phase is about gathering the raw materials for theory building. It involves a partnership between qualitative and quantitative disciplines to get a holistic view of the user experience.
 
@@ -69,7 +69,7 @@ This initial phase is about gathering the raw materials for theory building. It 
 
 <br>
 
-### **Theory Building**
+### **(L1·2) Theory Building**
 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
 
@@ -81,7 +81,7 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 
 <br>
 
-### **Hypothesis Generation**
+### **(L1·3) Hypothesis Generation**
 
 This is the final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing.
 
@@ -108,10 +108,10 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
 
 ### **Main Components:**
 
-* **Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
-* **Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
+* **(L2·1) Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
+* **(L2·2) Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
 
-### **Foundational Analysis**
+### **(L2·1) Foundational Analysis**
 
 This is the engine for day-to-day business intelligence and hypothesis validation. It uses fundamental statistical techniques to describe the current state of the product and its users, generating **Observational** and **Comparative** insights.
 
@@ -121,7 +121,7 @@ This is the engine for day-to-day business intelligence and hypothesis validatio
 | **Exploratory Data Analysis (EDA)** | The process of visualizing data to discover patterns, spot anomalies, and check assumptions. | To identify relationships between variables and guide the selection of appropriate statistical models. | Creating a histogram of session durations to see if the distribution is normal or exponential, or a scatter plot to visualize relationships. |
 | **Basic Statistical Tests** | Used to make inferences about a population from a sample, determining if observed differences are statistically significant. | To validate comparative hypotheses. | Using a **t-test** to compare average spend between two user groups, or a **chi-squared test** to compare conversion rates. |
 
-### **Advanced Modeling**
+### **(L2·2) Advanced Modeling**
 
 This is the toolkit for answering complex strategic questions that go beyond simple description. It uses more sophisticated techniques to understand causality and predict future behavior, generating **Causal** and **Predictive** insights.
 
@@ -147,11 +147,11 @@ This is the final and most critical layer, where analytical insights are transla
 
 ### **Main Components:**
 
-* **Actionable Insights:** The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
-* **Action:** The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
-* **Strategic Influence:** The direct impact of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
+* **(L3·1) Actionable Insights:** The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
+* **(L3·2) Action:** The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
+* **(L3·3) Strategic Influence:** The direct impact of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
 
-### **Actionable Insights (Input)**
+### **(L3·1) Actionable Insights (Input)**
 
 This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product or organization. These insights are the fuel for the Activation Layer.
 
@@ -162,7 +162,7 @@ This component represents the validated, high-confidence outputs from the Infere
 | **Causal** | Identifies a cause-and-effect relationship. | Directly informs feature or campaign decisions (e.g., "Banner A *causes* more signups than Banner B, let's use Banner A"). |
 | **Predictive** | Related to forecasting future events. | Crucial for strategic planning and resource allocation (e.g., "We will need 5x server capacity by Q4"). |
 
-### **Action**
+### **(L3·2) Action**
 
 An **Action** is the concrete implementation of an insight. It is the bridge between the analytical world and the live product. The success of the entire framework hinges on the ability to effectively translate insights into well-executed actions.
 
@@ -171,7 +171,7 @@ An **Action** is the concrete implementation of an insight. It is the bridge bet
 | **Purpose** | To change some aspect of the user experience, product functionality, or business process with the goal of improving key metrics. |
 | **Examples** | <ul><li>**Causal Insight:** An A/B test proves a simplified sign-up form increases conversion by 15%. → **Action:** Ship the new form to 100% of users.</li><li>**Observational Insight:** A user funnel analysis shows a 60% drop-off on the payment screen. → **Action:** Prioritize a redesign of the payment screen.</li><li>**Predictive Insight:** A churn model identifies a segment of at-risk users. → **Action:** Launch a targeted re-engagement campaign for that segment.</li></ul> |
 
-### **Strategic Influence (Output)**
+### **(L3·3) Strategic Influence (Output)**
 
 The actions taken based on insights directly influence and shape the product's direction at all levels, from high-level vision to day-to-day execution. This component ensures that the product evolves based on evidence rather than solely on intuition.
 
