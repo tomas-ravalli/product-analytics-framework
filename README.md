@@ -52,7 +52,7 @@ This is the foundational layer where we move from raw data to a structured under
   <em>Fig. 2: Theory Layer (L1)</em>
 </p>
 
-### **Main Components:**
+#### **Main Components:**
 
 * (L1·1) **Exploration:** The process of gathering and exploring Qualitative Data (interviews, surveys) and Quantitative Data (event logs, metrics) to understand the landscape.  
 * (L1·2) **Theory Building:** Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Our users are either 'Explorers' or 'Settlers'").  
@@ -106,7 +106,7 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
   <em>Fig. 3: Inference Layer (L2)</em>
 </p>
 
-### **Main Components:**
+#### **Main Components:**
 
 * (L2·1) **Foundational Analysis:** The engine for day-to-day business intelligence, using Descriptive Statistics, Exploratory Data Analysis (EDA), and Basic Statistical Tests to generate **Observational** and **Comparative** insights.  
 * (L2·2) **Advanced Modeling:** The toolkit for answering complex strategic questions. It uses Experimentation (A/B tests), Quasi-experiments, and Machine Learning models to generate **Causal** and **Predictive** insights.
@@ -145,7 +145,7 @@ This is the final and most critical layer, where analytical insights are transla
   <em>Fig. 4: Activation Layer (L3)</em>
 </p>
 
-### **Main Components:**
+#### **Main Components:**
 
 * (L3·1) **Actionable Insights:** The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
 * (L3·2) **Action:** The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
