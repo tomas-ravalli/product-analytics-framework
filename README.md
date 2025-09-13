@@ -232,9 +232,9 @@ The Product Analytics Framework is not a linear, one-time process. It is a dynam
 
 | Loop | Type | Description | Purpose |
 | :--- | :--- | :--- | :--- |
-| **1. The Macro-Cycle** 🔄 | `Activation → Theory` | Every **Action** (e.g., shipping a feature) generates new data and user feedback, which becomes the raw material for a new cycle of **Exploration**. | Drives the iterative evolution of the product by ensuring that real-world outcomes inform the next round of strategic and tactical planning. |
-| **2. The Analytical Cycle** 🔬 | `Advanced → Foundational` | Findings from **Advanced Models** (e.g., an ML model) raise new descriptive questions that are investigated using **Foundational Analysis** (e.g., EDA). | Deepens analytical understanding by ensuring complex findings are grounded in a solid descriptive context, preventing insights from being interpreted in a vacuum. |
-| **3. The Theory Refinement Cycle** 🤔 | `Hypothesis → Theory` | When a key **Hypothesis** is invalidated by testing, it forces a return to **Theory Building** to revise the underlying conceptual models and assumptions. | Makes the framework self-correcting by forcing a disciplined re-evaluation of assumptions, ensuring the team's "mental model" of the user becomes more accurate. |
+| **Macro-Cycle**| `Activation → Theory` | Every **Action** (e.g., shipping a feature) generates new data and user feedback, which becomes the raw material for a new cycle of **Exploration**. | Drives the iterative evolution of the product by ensuring that real-world outcomes inform the next round of strategic and tactical planning. |
+| **Analytical Cycle**| `Advanced → Foundational` | Findings from **Advanced Models** (e.g., an ML model) raise new descriptive questions that are investigated using **Foundational Analysis** (e.g., EDA). | Deepens analytical understanding by ensuring complex findings are grounded in a solid descriptive context, preventing insights from being interpreted in a vacuum. |
+| **Theory Refinement Cycle**| `Hypothesis → Theory` | When a key **Hypothesis** is invalidated by testing, it forces a return to **Theory Building** to revise the underlying conceptual models and assumptions. | Makes the framework self-correcting by forcing a disciplined re-evaluation of assumptions, ensuring the team's "mental model" of the user becomes more accurate. |
 
 </br>
 
