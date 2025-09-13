@@ -56,7 +56,7 @@ This is the foundational layer where we move from raw data to a structured under
 <br>
 
 <details>
-<summary><strong>Click to expand/collapse L1 details</strong></summary>
+<summary><strong>Click to expand/collapse L1 components</strong></summary>
 
 ### Exploration (L1·1) 
 
@@ -127,7 +127,7 @@ This is the analytical core where hypotheses generated in the Theory Layer are r
 <br>
 
 <details>
-<summary><strong>Click to expand/collapse L2 details</strong></summary>
+<summary><strong>Click to expand/collapse L2 components</strong></summary>
 
 ### Foundational Analysis (L2·1)
 
@@ -185,7 +185,7 @@ This is the final and most critical layer, where analytical insights are transla
 <br>
 
 <details>
-<summary><strong>Click to expand/collapse L3 details</strong></summary>
+<summary><strong>Click to expand/collapse L3 components</strong></summary>
 
 ### Actionable Insights (L3·1)
 
