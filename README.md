@@ -24,7 +24,6 @@ The framework is organized into three core layers: **Theory** → **Inference** 
 * [Layer 2: Inference](layer-2-inference)
 * [Layer 3: Activation](layer-3-activation)
 * [Feedback Loops](feedback-loops)
-* [References](references)
 
 ---
 
