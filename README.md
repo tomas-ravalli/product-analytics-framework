@@ -241,19 +241,49 @@ The actions taken based on insights directly influence and shape the product's d
 
 ## Feedback Loops
 
-The Product Analytics Framework is not a linear, one-time process. It is a dynamic and iterative system designed for continuous learning and adaptation. Its power comes from the three feedback loops that connect the layers, ensuring that product decisions become progressively smarter over time.
+The framework is not a linear process but a dynamic cycle. Below are three of the key feedback loops that drive its continuous learning and adaptation:
+
+### **The Causal Refinement Loop**
+`Explanatory Modeling` → `Theory Layer`
+
+This loop uses advanced causal insights to directly improve and validate foundational theories about user behavior.
+
+* **How it works:** Findings from **Explanatory Models** (e.g., discovering *which* user segments are most impacted by a feature) provide deep causal insights that directly challenge or refine the initial **User Typologies** and **Relationships** defined in the Theory Layer.
+* **Purpose:** To ensure the team's "mental model" of its users becomes more nuanced and accurate over time.
 
 <p align="center">
-  <img src="./assets/placeholder.png" alt="product analytics framework with feedback loops highlighted" width="800">
+  <img src="./assets/fbl-1.png" alt="product analytics framework" width="450">
   <br>
-  <em>Fig. 13: The Feedback Loops of the Framework</em>
+  <em>Fig. 13: Feedback Loop – Causal Refinement</em>
 </p>
 
-| Loop | Type | Description | Purpose |
-| :--- | :--- | :--- | :--- |
-| **Causal Refinement Loop**| `Explanatory Modeling → Theory Layer` | Findings from **Explanatory Models** (e.g., discovering *which* user segments are most impacted by a feature) provide deep causal insights that directly challenge or refine the initial **User Typologies** and **Relationships** defined in the Theory Layer. | To use advanced, high-confidence insights about user behavior to directly improve and validate the foundational theories, ensuring the team's "mental model" of its users becomes more nuanced and accurate. |
-| **Strategic Validation Loop**| `Actionable Insights → Theory Layer` | A significant **Actionable Insight** (especially a surprising causal or predictive finding) can invalidate a core assumption of the entire product theory, forcing a strategic re-evaluation of the foundational understanding of the user and market. | To ensure the highest-level product theories are continuously held accountable to the strongest evidence produced by the framework, preventing the team from executing on a fundamentally flawed strategy. |
-| **The Macro-Cycle** | `Activation Layer → Exploration` | Every **Action** taken (e.g., shipping a feature) generates new quantitative (usage data) and qualitative (user feedback) data, which becomes the raw material for a new cycle of **Exploration**. | Drives the iterative evolution of the product by ensuring that the real-world outcomes of every action inform the next round of analysis and strategic planning. This is the primary engine of product development. |
+### **The Strategic Validation Loop**
+`Actionable Insights Layer` → `Theory Layer`
+
+This loop ensures the highest-level product theories are continuously held accountable to the strongest evidence produced by the framework.
+
+* **How it works:** A significant **Actionable Insight** (especially a surprising causal or predictive finding) can invalidate a core assumption of the entire product theory, forcing a strategic re-evaluation of the foundational understanding of the user and market.
+* **Purpose:** To prevent the team from executing on a fundamentally flawed strategy by validating the core theory with high-confidence insights.
+
+<p align="center">
+  <img src="./assets/fbl-2.png" alt="product analytics framework" width="450">
+  <br>
+  <em>Fig. 14: Feedback Loop – Strategic Validation</em>
+</p>
+
+### **The Macro-Cycle**
+`Activation Layer` → `Exploration`
+
+This is the primary engine of product development, driving the iterative evolution of the product itself.
+
+* **How it works:** Every **Action** taken in the Activation Layer (e.g., shipping a feature) generates new quantitative (usage data) and qualitative (user feedback) data. This new information becomes the raw material for the next cycle of **Exploration**.
+* **Purpose:** To ensure that the real-world outcomes of every action inform the next round of analysis and strategic planning.
+
+<p align="center">
+  <img src="./assets/fbl-3.png" alt="product analytics framework" width="450">
+  <br>
+  <em>Fig. 15: Feedback Loop – Macro-Cycle</em>
+</p>
 
 </br>
 
