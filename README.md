@@ -7,7 +7,7 @@
 
 # **Product Analytics Framework**
 <p align="left">
-<a href="https://bun.com/discord" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join%20Server7289da?logo=discord&logoColor=white"/></a>
+<a href="https://bun.com/discord" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join-Server7289da?logo=discord&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 <img src="https://img.shields.io/github/stars/oven-sh/bun" alt="stars">
 </p>
