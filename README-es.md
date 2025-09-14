@@ -16,7 +16,7 @@ Un marco sistemático para la analítica de producto. Un proceso ascendente dise
 
 ### **Índice**
 
-* [Panorama General](panorama-general)
+* [Introducción](introduccion)
 * [Capa 1: Teoría](capa-1-teoria)
 * [Capa 2: Inferencia](capa-2-inferencia)
 * [Capa 3: Activación](capa-3-activacion)
@@ -24,7 +24,7 @@ Un marco sistemático para la analítica de producto. Un proceso ascendente dise
 
 ---
 
-## **Panorama General**
+## **Introducción**
 
 Este marco es el motor analítico para la toma de decisiones de producto basadas en evidencia. Avanza desde una comprensión fundamental hacia pruebas rigurosas y, finalmente, a la implementación estratégica, organizado en tres capas principales:
 > **Teoría** → **Inferencia** → **Activación**
@@ -37,19 +37,19 @@ Este marco es el motor analítico para la toma de decisiones de producto basadas
 
 ### **Roles Clave**
 
-Si bien la analítica de producto es un esfuerzo colaborativo amplio, este marco es impulsado por las contribuciones distintivas de cinco roles clave. Cada rol es dueño de una parte crítica del proceso, y su interacción es esencial para convertir datos en cambios de producto impactantes.
+Si bien la analítica de producto es un esfuerzo colaborativo conjunto, este marco es impulsado por las contribuciones distintivas de cinco roles clave. Cada rol es dueño de una parte crítica del proceso, y su interacción es esencial para convertir datos en cambios de producto con impacto.
 
 | Rol | Capa(s) Principal(es) | Contribución Principal |
 | :--- | :--- | :--- |
-| **Investigador de UX** | `Teoría (C1)` | Proporciona **Datos Cualitativos** realizando entrevistas a usuarios, encuestas y estudios de usabilidad para descubrir las motivaciones y puntos de dolor –el "porqué"– detrás del comportamiento del usuario. |
-| **Científico de Datos de Producto** | `Teoría (C1)` e `Inferencia (C2)` | Suministra **Datos Cuantitativos** y ejecuta todos los análisis en la **Capa de Inferencia** –desde EDA hasta modelado avanzado– para generar insights validados y accionables. |
+| **Investigador de UX** | `Teoría (C1)` | Proporciona **Datos Cualitativos** realizando entrevistas a usuarios, encuestas y estudios de usabilidad para descubrir las motivaciones y puntos de dolor –el "por qué"– detrás del comportamiento del usuario. |
+| **Científico de Datos de Producto** | `Teoría (C1)` e `Inferencia (C2)` | Suministra **Datos Cuantitativos** y ejecuta todos los análisis en la **Capa de Inferencia** –desde EDA hasta modelado avanzado– para generar aprendizajes validados y accionables. |
 | **Ingeniero de Producto** | `Activación (C3)` y `Teoría (C1)` | Ejecuta la **Acción** construyendo y lanzando funcionalidades. También habilita el marco al ingeniar la recolección de los **Datos Cuantitativos** necesarios para el análisis. |
-| **Diseñador de Producto** | `Activación (C3)` y `Teoría (C1)` | Traduce los **Insights Accionables** y la estrategia en experiencias de usuario tangibles, diseñando los wireframes, prototipos y mockups de alta fidelidad que los ingenieros construyen. |
-| **Gerente de Producto** | `Activación (C3)` | Consume los **Insights Accionables** para dar forma a la **Estrategia de Producto**, definir la **Hoja de Ruta (Roadmap)** y tomar decisiones basadas en evidencia, actuando como el eje central para activar los insights. |
+| **Diseñador de Producto** | `Activación (C3)` y `Teoría (C1)` | Traduce los **aprendizajes Accionables** y la estrategia en experiencias de usuario tangibles, diseñando los wireframes, prototipos y mockups de alta fidelidad que los ingenieros construyen. |
+| **Gerente de Producto** | `Activación (C3)` | Consume los **aprendizajes Accionables** para dar forma a la **Estrategia de Producto**, definir la **Hoja de Ruta (Roadmap)** y tomar decisiones basadas en evidencia, actuando como el eje central para activar los aprendizajes. |
 
 ## **Capa 1: Teoría**
 
-La capa fundamental donde los datos brutos se transforman en una comprensión estructurada del comportamiento del usuario. Su propósito es asegurar que se formulen las preguntas correctas y se formen teorías sólidas antes de comenzar el análisis. Esta capa sintetiza datos cualitativos y cuantitativos para construir teorías falsables e hipótesis comprobables.
+La capa fundamental donde los datos crudos se transforman en una comprensión estructurada del comportamiento del usuario. Su propósito es asegurar que se formulen las preguntas correctas y se formen teorías sólidas antes de comenzar el análisis. Esta capa sintetiza datos cualitativos y cuantitativos para construir teorías falsables e hipótesis comprobables.
 
 <p align="center">
 <img src="./assets/fw-l1-es.png" alt="marco de analítica de producto" width="775">
@@ -80,8 +80,8 @@ Esta fase inicial consiste en reunir la materia prima para la construcción de l
 
 | Tipo de Dato | Descripción | Fuente | Ejemplos | Propósito |
 | :--- | :--- | :--- | :--- | :--- |
-| **Datos Cualitativos** | Proporcionan el "porqué" detrás de las acciones del usuario. Incluyen insights de métodos que exploran motivaciones, opiniones y sentimientos. | Típicamente impulsados por Investigadores de UX. | Entrevistas a usuarios, encuestas, feedback de grupos focales, tickets de soporte, reseñas en tiendas de apps. | Comprender los objetivos, motivaciones y puntos de dolor del usuario que son vitales para explicar el comportamiento. |
-| **Datos Cuantitativos** | Proporcionan el "qué" y el "cómo" del comportamiento del usuario a escala. Consisten en eventos medibles y registrados dentro del producto. | Típicamente gestionados y presentados por Científicos de Datos o Analistas. | Datos de clickstream, datos de sesión, historial de compras, tasas de adopción de funcionalidades y tasas de abandono (churn). | Describir lo que los usuarios hacen en conjunto, identificar patrones y proporcionar cifras concretas para un análisis riguroso. |
+| **Datos Cualitativos** | Proporcionan el "por qué" detrás de las acciones del usuario. Incluyen aprendizajes de métodos que exploran motivaciones, opiniones y sentimientos. | Típicamente impulsados por Investigadores de UX. | Entrevistas a usuarios, encuestas, feedback de grupos focales, tickets de soporte, reseñas en tiendas de apps. | Comprender los objetivos, motivaciones y puntos de dolor del usuario que son vitales para explicar el comportamiento. |
+| **Datos Cuantitativos** | Proporcionan el "qué" y el "cómo" del comportamiento del usuario a escala. Consisten en eventos medibles y registrados dentro del producto. | Típicamente gestionados y presentados por Científicos de Datos o Analistas. | Datos de *clickstream*, datos de sesión, historial de compras, tasas de adopción de funcionalidades y tasas de abandono. | Describir lo que los usuarios hacen en conjunto, identificar patrones y proporcionar cifras concretas para un análisis riguroso. |
 
 ### Construcción de Teoría (C1·2)
 
@@ -97,7 +97,7 @@ Una vez explorados los datos, el siguiente paso es sintetizarlos en un marco exp
 | :--- | :--- | :--- | :--- |
 | **Descriptivo (5W1H)** | El primer paso para formalizar la comprensión respondiendo a preguntas clave: Quién, Qué, Dónde, Cuándo, Por qué y Cómo. | ¿*Quiénes* son los usuarios más comprometidos? ¿*Qué* funcionalidades utilizan? ¿*Dónde* abandonan el embudo de usuario? | Crear una base descriptiva completa antes de intentar explicar los vínculos causales. |
 | **Relaciones y Mecanismos** | Va más allá de la simple descripción para definir conexiones entre comportamientos y proponer los mecanismos que los impulsan. | Se observa una correlación positiva entre el uso de la Funcionalidad A y la retención. El *mecanismo* propuesto es que la Funcionalidad A ayuda a construir lazos sociales, aumentando los costos de cambio. | Formar el núcleo de un argumento causal que pueda ser probado más tarde. |
-| **Tipologías de Usuario y Comportamiento** | La práctica de categorizar usuarios o comportamientos en grupos distintos para gestionar la complejidad y generalizar los hallazgos. | Tipología de comportamiento social (Activo/Pasivo y Entrante/Saliente). | Construir modelos más matizados que reconozcan que diferentes segmentos de usuarios tienen distintas necesidades y comportamientos. |
+| **Tipologías de Usuario y Comportamiento** | La práctica de categorizar usuarios o comportamientos en grupos distintos para gestionar la complejidad y generalizar los hallazgos. | Tipología de comportamiento social. | Construir modelos más matizados que reconozcan que diferentes segmentos de usuarios tienen distintas necesidades y comportamientos. |
 
 ### Generación de Hipótesis (C1·3)
 
@@ -121,7 +121,7 @@ El paso final en la Capa de Teoría, donde las teorías abstractas se traducen e
 
 ## Capa 2: Inferencia
 
-El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se prueban rigurosamente contra los datos. El objetivo principal es generar insights validados separando los hallazgos estadísticamente significativos del ruido aleatorio. Esta capa aplica los métodos estadísticos apropiados para probar hipótesis y generar uno de cuatro tipos de insights: *Observacional*, *Comparativo*, *Causal* o *Predictivo*.
+El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se prueban rigurosamente contra los datos. El objetivo principal es generar aprendizajes validados separando los hallazgos estadísticamente significativos del ruido aleatorio. Esta capa aplica los métodos estadísticos apropiados para probar hipótesis y generar uno de cuatro tipos de aprendizajes: *Observacional*, *Comparativo*, *Causal* o *Predictivo*.
 
 <p align="center">
 <img src="./assets/fw-l2-es.png" alt="marco de analítica de producto" width="775">
@@ -131,8 +131,8 @@ El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se pr
 
 #### **Componentes Principales:**
 
-* **Análisis Fundamental** (C2·1): El motor para la inteligencia de negocio diaria, usando Estadística Descriptiva, Análisis Exploratorio de Datos (EDA) y Pruebas Estadísticas Básicas para generar insights *Observacionales* y *Comparativos*.
-* **Modelado Avanzado** (C2·2): El conjunto de herramientas para responder preguntas estratégicas complejas. Utiliza Experimentación (pruebas A/B), Cuasiexperimentos y modelos de Machine Learning para generar insights *Causales* y *Predictivos*.
+* **Análisis Fundamental** (C2·1): El motor para la inteligencia de negocio diaria, usando Estadística Descriptiva, Análisis Exploratorio de Datos (EDA) y Pruebas Estadísticas Básicas para generar aprendizajes *Observacionales* y *Comparativos*.
+* **Modelado Avanzado** (C2·2): El conjunto de herramientas para responder preguntas estratégicas complejas. Utiliza Experimentación (pruebas A/B), Cuasiexperimentos y modelos de Machine Learning para generar aprendizajes *Causales* y *Predictivos*.
 
 <br>
 
@@ -141,7 +141,7 @@ El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se pr
 
 ### Análisis Fundamental (C2·1)
 
-Utiliza técnicas estadísticas fundamentales para describir el estado actual del producto y sus usuarios, generando insights *Observacionales* y *Comparativos*.
+Utiliza técnicas estadísticas fundamentales para describir el estado actual del producto y sus usuarios, generando aprendizajes *Observacionales* y *Comparativos*.
 
 <p align="center">
 <img src="./assets/foundational-analysis-es.png" alt="marco de analítica de producto" width="775">
@@ -157,7 +157,7 @@ Utiliza técnicas estadísticas fundamentales para describir el estado actual de
 
 ### Modelado Avanzado (C2·2)
 
-Utiliza técnicas más sofisticadas para comprender la causalidad y predecir el comportamiento futuro, generando insights *Causales* y *Predictivos*.
+Utiliza técnicas más sofisticadas para comprender la causalidad y predecir el comportamiento futuro, generando aprendizajes *Causales* y *Predictivos*.
 
 <p align="center">
 <img src="./assets/advanced-modeling-es.png" alt="marco de analítica de producto" width="775">
@@ -178,7 +178,7 @@ Utiliza técnicas más sofisticadas para comprender la causalidad y predecir el 
 
 ## **Capa 3: Activación**
 
-Esta es la capa final y más crítica, donde los insights analíticos se traducen en acciones tangibles de negocio y producto. El objetivo es asegurar que el trabajo riguroso de las capas de Teoría e Inferencia conduzca a mejoras significativas del producto y a la alineación estratégica.
+Esta es la capa final y más crítica, donde los aprendizajes analíticos se traducen en acciones tangibles de negocio y producto. El objetivo es asegurar que el trabajo riguroso de las capas de Teoría e Inferencia conduzca a mejoras significativas del producto y a la alineación estratégica.
 
 <p align="center">
 <img src="./assets/fw-l3-es.png" alt="marco de analítica de producto" width="775">
@@ -188,26 +188,26 @@ Esta es la capa final y más crítica, donde los insights analíticos se traduce
 
 #### **Componentes Principales:**
 
-* **Insights Accionables** (C3·1): Los resultados validados de la Capa de Inferencia, categorizados como *Observacionales*, *Comparativos*, *Causales* o *Predictivos*.
-* **Acción** (C3·2): La implementación concreta de un insight (p. ej., lanzar una funcionalidad, cambiar un flujo de usuario).
-* **Estrategia de Producto** (C3·3): La influencia estratégica de los insights en la Estrategia de Producto, la Hoja de Ruta (Roadmap) y las Tácticas gestionadas por el equipo de producto.
+* **aprendizajes Accionables** (C3·1): Los resultados validados de la Capa de Inferencia, categorizados como *Observacionales*, *Comparativos*, *Causales* o *Predictivos*.
+* **Acción** (C3·2): La implementación concreta de un aprendizaje (p. ej., lanzar una funcionalidad, cambiar un flujo de usuario).
+* **Estrategia de Producto** (C3·3): La influencia estratégica de los aprendizajes en la Estrategia de Producto, la Hoja de Ruta (Roadmap) y las Tácticas gestionadas por el equipo de producto.
 
 <br>
 
 <details>
 <summary><strong>Clic para expandir/colapsar componentes de C3</strong></summary>
 
-### Insights Accionables (C3·1)
+### aprendizajes Accionables (C3·1)
 
-Este componente representa los resultados validados y de alta confianza de la Capa de Inferencia. Un insight se considera "accionable" cuando puede usarse para impulsar un cambio específico en el producto. Estos insights son el combustible para la Capa de Activación.
+Este componente representa los resultados validados y de alta confianza de la Capa de Inferencia. Un aprendizaje se considera "accionable" cuando puede usarse para impulsar un cambio específico en el producto. Estos aprendizajes son el combustible para la Capa de Activación.
 
 <p align="center">
-<img src="./assets/actionable-insights-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/actionable-aprendizajes-es.png" alt="marco de analítica de producto" width="775">
 <br>
-<em>Fig. 10: Capa de Activación – Insights Accionables (C3·1)</em>
+<em>Fig. 10: Capa de Activación – aprendizajes Accionables (C3·1)</em>
 </p>
 
-| Tipo de Insight | Descripción | Resultado Típico |
+| Tipo de aprendizaje | Descripción | Resultado Típico |
 | :--- | :--- | :--- |
 | **Observacional** | Basado en la descripción de un fenómeno. | Conduce a mejoras tácticas (p. ej., "Los usuarios pasan más tiempo en la funcionalidad *X*, mejoremos su diseño"). |
 | **Comparativo** | Relacionado con una comparación entre dos o más grupos. | Impulsa una mayor investigación causal (p. ej., "Los usuarios de *X* retienen mejor que los de *Y*, averigüemos por qué"). |
@@ -216,7 +216,7 @@ Este componente representa los resultados validados y de alta confianza de la Ca
 
 ### Acción (C3·2)
 
-Una **Acción** es la implementación concreta de un insight. Es el puente entre el mundo analítico y el producto en vivo. El éxito de todo el marco depende de la capacidad de traducir eficazmente los insights en acciones bien ejecutadas.
+Una **Acción** es la implementación concreta de un aprendizaje. Es el puente entre el mundo analítico y el producto en vivo. El éxito de todo el marco depende de la capacidad de traducir eficazmente los aprendizajes en acciones bien ejecutadas.
 
 <p align="center">
 <img src="./assets/action-es.png" alt="marco de analítica de producto" width="775">
@@ -227,11 +227,11 @@ Una **Acción** es la implementación concreta de un insight. Es el puente entre
 | Componente | Descripción |
 | :--- | :--- |
 | **Propósito** | Cambiar algún aspecto de la experiencia del usuario, la funcionalidad del producto o el proceso de negocio con el objetivo de mejorar las métricas clave. |
-| **Ejemplos** | <ul><li>**Insight Causal:** Una prueba A/B demuestra que un formulario de registro simplificado aumenta la conversión en un 15%. → **Acción:** Lanzar el nuevo formulario al 100% de los usuarios.</li><li>**Insight Observacional:** Un análisis del embudo de usuario muestra una caída del 60% en la pantalla de pago. → **Acción:** Priorizar un rediseño de la pantalla de pago.</li><li>**Insight Predictivo:** Un modelo de churn identifica un segmento de usuarios en riesgo. → **Acción:** Lanzar una campaña de re-engagement dirigida a ese segmento.</li></ul> |
+| **Ejemplos** | <ul><li>**aprendizaje Causal:** Una prueba A/B demuestra que un formulario de registro simplificado aumenta la conversión en un 15%. → **Acción:** Lanzar el nuevo formulario al 100% de los usuarios.</li><li>**aprendizaje Observacional:** Un análisis del embudo de usuario muestra una caída del 60% en la pantalla de pago. → **Acción:** Priorizar un rediseño de la pantalla de pago.</li><li>**aprendizaje Predictivo:** Un modelo de churn identifica un segmento de usuarios en riesgo. → **Acción:** Lanzar una campaña de re-engagement dirigida a ese segmento.</li></ul> |
 
 ### Estrategia de Producto (C3·3)
 
-Las acciones tomadas a partir de insights influyen y dan forma directamente a la dirección del producto en todos los niveles, desde la visión de alto nivel hasta la ejecución diaria. Este componente asegura que el producto evolucione basado en evidencia en lugar de solo en la intuición.
+Las acciones tomadas a partir de aprendizajes influyen y dan forma directamente a la dirección del producto en todos los niveles, desde la visión de alto nivel hasta la ejecución diaria. Este componente asegura que el producto evolucione basado en evidencia en lugar de solo en la intuición.
 
 <p align="center">
 <img src="./assets/product-strategy-es.png" alt="marco de analítica de producto" width="775">
@@ -239,11 +239,11 @@ Las acciones tomadas a partir de insights influyen y dan forma directamente a la
 <em>Fig. 12: Capa de Activación – Estrategia de Producto (C3·3)</em>
 </p>
 
-| Artefacto Estratégico | Descripción | Impacto de los Insights |
+| Artefacto Estratégico | Descripción | Impacto de los aprendizajes |
 | :--- | :--- | :--- |
-| **Estrategia de Producto** | El plan de alto nivel para alcanzar la visión del producto. | Los insights validan o desafían los supuestos centrales de la estrategia, pudiendo llevar a pivotes importantes. |
-| **Hoja de Ruta (Roadmap)** | El plan temporal de qué funcionalidades e iniciativas se construirán. | Los insights proporcionan la evidencia necesaria para priorizar una funcionalidad sobre otra, enfocando los recursos en el trabajo de mayor impacto. |
-| **Tácticas de Producto** | Las decisiones a menor escala, a menudo a corto plazo, para alcanzar los objetivos de la hoja de ruta. | Un insight puede conducir directamente a un cambio táctico en un flujo de usuario, el texto de la interfaz o la temporización de una notificación. |
+| **Estrategia de Producto** | El plan de alto nivel para alcanzar la visión del producto. | Los aprendizajes validan o desafían los supuestos centrales de la estrategia, pudiendo llevar a pivotes importantes. |
+| **Hoja de Ruta (Roadmap)** | El plan temporal de qué funcionalidades e iniciativas se construirán. | Los aprendizajes proporcionan la evidencia necesaria para priorizar una funcionalidad sobre otra, enfocando los recursos en el trabajo de mayor impacto. |
+| **Tácticas de Producto** | Las decisiones a menor escala, a menudo a corto plazo, para alcanzar los objetivos de la hoja de ruta. | Un aprendizaje puede conducir directamente a un cambio táctico en un flujo de usuario, el texto de la interfaz o la temporización de una notificación. |
 
 </details>
 
@@ -272,7 +272,7 @@ Este es el motor principal del desarrollo de productos, impulsando la evolución
 
 Este bucle asegura que la comprensión del equipo sobre sus usuarios se actualice constantemente con evidencia rigurosa, haciendo que la teoría fundamental sea más precisa con el tiempo.
 
-* **Qué:** Los insights validados de la **Capa de Inferencia** se utilizan para desafiar y refinar los modelos conceptuales en la fase de **Construcción de Teoría**. Un hallazgo que contradice una hipótesis indica que la teoría subyacente necesita revisión.
+* **Qué:** Los aprendizajes validados de la **Capa de Inferencia** se utilizan para desafiar y refinar los modelos conceptuales en la fase de **Construcción de Teoría**. Un hallazgo que contradice una hipótesis indica que la teoría subyacente necesita revisión.
 * **Por qué:** Para hacer que el marco se autocorrija forzando una reevaluación disciplinada de los supuestos basada en los resultados analíticos.
 
 <p align="center">
@@ -284,7 +284,7 @@ Este bucle asegura que la comprensión del equipo sobre sus usuarios se actualic
 </br>
 
 > **Referencias**
-> * Rodrigues, J. (2021). *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights*. Addison-Wesley.
+> * Rodrigues, J. (2021). *Product Analytics: Applied Data Science Techniques for Actionable Consumer aprendizajes*. Addison-Wesley.
 > * Croll, A., & Yoskovitz, B. (2013). *Lean Analytics: Use Data to Build a Better Startup Faster*. O'Reilly Media.
 > * Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
 
