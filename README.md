@@ -251,37 +251,9 @@ The actions taken based on insights directly influence and shape the product's d
 
 ## Feedback Loops
 
-The framework is not a linear process but a dynamic cycle. Below are three of the key feedback loops that drive its continuous learning and adaptation:
+The framework is not a linear process but a dynamic cycle. Below are two key feedback loops that drive its continuous learning and adaptation:
 
-### **The Causal Refinement Loop**
-`Explanatory Modeling` → `Theory Layer`
-
-This loop uses advanced causal insights to directly improve and validate foundational theories about user behavior.
-
-* **What:** Findings from **Explanatory Models** (e.g., discovering *which* user segments are most impacted by a feature) provide deep causal insights that directly challenge or refine the initial **User Typologies** and **Relationships** defined in the Theory Layer.
-* **Why:** To ensure the team's "mental model" of its users becomes more nuanced and accurate over time.
-
-<p align="center">
-  <img src="./assets/fbl-1.png" alt="product analytics framework" width="450">
-  <br>
-  <em>Fig. 13: Feedback Loop – Causal Refinement</em>
-</p>
-
-### **The Strategic Validation Loop**
-`Actionable Insights Layer` → `Theory Layer`
-
-This loop ensures the highest-level product theories are continuously held accountable to the strongest evidence produced by the framework.
-
-* **What:** A significant **Actionable Insight** (especially a surprising causal or predictive finding) can invalidate a core assumption of the entire product theory, forcing a strategic re-evaluation of the foundational understanding of the user and market.
-* **Why:** To prevent the team from executing on a fundamentally flawed strategy by validating the core theory with high-confidence insights.
-
-<p align="center">
-  <img src="./assets/fbl-2.png" alt="product analytics framework" width="450">
-  <br>
-  <em>Fig. 14: Feedback Loop – Strategic Validation</em>
-</p>
-
-### **The Macro-Cycle**
+### **1. The Macro-Cycle**
 `Activation Layer` → `Exploration`
 
 This is the primary engine of product development, driving the iterative evolution of the product itself.
@@ -290,9 +262,23 @@ This is the primary engine of product development, driving the iterative evoluti
 * **Why:** To ensure that the real-world outcomes of every action inform the next round of analysis and strategic planning.
 
 <p align="center">
-  <img src="./assets/fbl-3.png" alt="product analytics framework" width="450">
+  <img src="./assets/fbl-1.png" alt="product analytics feedback loop" width="450">
   <br>
-  <em>Fig. 15: Feedback Loop – Macro-Cycle</em>
+  <em>Fig. 13: The Macro-Cycle Feedback Loop</em>
+</p>
+
+### **2. The Theory Refinement Cycle**
+`Inference Layer` → `Theory Building`
+
+This loop ensures the team's understanding of its users is constantly updated with rigorous evidence, making the foundational theory more accurate over time.
+
+* **What:** Validated insights from the **Inference Layer** are used to challenge and refine the conceptual models in the **Theory Building** phase. A finding that contradicts a hypothesis signals that the underlying theory needs revision.
+* **Why:** To make the framework self-correcting by forcing a disciplined re-evaluation of assumptions based on analytical outcomes.
+
+<p align="center">
+  <img src="./assets/fbl-2.png" alt="product analytics feedback loop" width="450">
+  <br>
+  <em>Fig. 14: The Theory Refinement Feedback Loop</em>
 </p>
 
 </br>
