@@ -7,9 +7,9 @@
 
 # **Product Analytics Framework**
 <p align="left">
-<a href="https://bun.com/discord" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white"/></a>
+<a href="https://discord.gg/7nNWB8UM" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
-<img src="https://img.shields.io/github/stars/oven-sh/bun" alt="stars">
+<img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework" alt="stars">
 </p>
 
 A systematic framework for product analytics. A bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
