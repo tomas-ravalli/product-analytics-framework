@@ -44,8 +44,8 @@ Si bien la analítica de producto es un esfuerzo colaborativo conjunto, este mar
 | **Investigador de UX** | `Teoría (C1)` | Proporciona **Datos Cualitativos** realizando entrevistas a usuarios, encuestas y estudios de usabilidad para descubrir las motivaciones y puntos de dolor –el "por qué"– detrás del comportamiento del usuario. |
 | **Científico de Datos de Producto** | `Teoría (C1)` e `Inferencia (C2)` | Suministra **Datos Cuantitativos** y ejecuta todos los análisis en la **Capa de Inferencia** –desde EDA hasta modelado avanzado– para generar aprendizajes validados y accionables. |
 | **Ingeniero de Producto** | `Activación (C3)` y `Teoría (C1)` | Ejecuta la **Acción** construyendo y lanzando funcionalidades. También habilita el marco al ingeniar la recolección de los **Datos Cuantitativos** necesarios para el análisis. |
-| **Diseñador de Producto** | `Activación (C3)` y `Teoría (C1)` | Traduce los **aprendizajes Accionables** y la estrategia en experiencias de usuario tangibles, diseñando los wireframes, prototipos y mockups de alta fidelidad que los ingenieros construyen. |
-| **Gerente de Producto** | `Activación (C3)` | Consume los **aprendizajes Accionables** para dar forma a la **Estrategia de Producto**, definir la **Hoja de Ruta (Roadmap)** y tomar decisiones basadas en evidencia, actuando como el eje central para activar los aprendizajes. |
+| **Diseñador de Producto** | `Activación (C3)` y `Teoría (C1)` | Traduce los **Aprendizajes Accionables** y la estrategia en experiencias de usuario tangibles, diseñando los wireframes, prototipos y mockups de alta fidelidad que los ingenieros construyen. |
+| **Gerente de Producto** | `Activación (C3)` | Consume los **Aprendizajes Accionables** para dar forma a la **Estrategia de Producto**, definir la **Hoja de Ruta (Roadmap)** y tomar decisiones basadas en evidencia, actuando como el eje central para activar los aprendizajes. |
 
 ## **Capa 1: Teoría**
 
@@ -188,7 +188,7 @@ Esta es la capa final y más crítica, donde los aprendizajes analíticos se tra
 
 #### **Componentes Principales:**
 
-* **aprendizajes Accionables** (C3·1): Los resultados validados de la Capa de Inferencia, categorizados como *Observacionales*, *Comparativos*, *Causales* o *Predictivos*.
+* **Aprendizajes Accionables** (C3·1): Los resultados validados de la Capa de Inferencia, categorizados como *Observacionales*, *Comparativos*, *Causales* o *Predictivos*.
 * **Acción** (C3·2): La implementación concreta de un aprendizaje (p. ej., lanzar una funcionalidad, cambiar un flujo de usuario).
 * **Estrategia de Producto** (C3·3): La influencia estratégica de los aprendizajes en la Estrategia de Producto, la Hoja de Ruta (Roadmap) y las Tácticas gestionadas por el equipo de producto.
 
@@ -197,14 +197,14 @@ Esta es la capa final y más crítica, donde los aprendizajes analíticos se tra
 <details>
 <summary><strong>Clic para expandir/colapsar componentes de C3</strong></summary>
 
-### aprendizajes Accionables (C3·1)
+### Aprendizajes Accionables (C3·1)
 
 Este componente representa los resultados validados y de alta confianza de la Capa de Inferencia. Un aprendizaje se considera "accionable" cuando puede usarse para impulsar un cambio específico en el producto. Estos aprendizajes son el combustible para la Capa de Activación.
 
 <p align="center">
 <img src="./assets/actionable-aprendizajes-es.png" alt="marco de analítica de producto" width="775">
 <br>
-<em>Fig. 10: Capa de Activación – aprendizajes Accionables (C3·1)</em>
+<em>Fig. 10: Capa de Activación – Aprendizajes Accionables (C3·1)</em>
 </p>
 
 | Tipo de aprendizaje | Descripción | Resultado Típico |
