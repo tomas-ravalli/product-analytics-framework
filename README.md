@@ -121,7 +121,7 @@ The final step in the Theory Layer, where abstract theories are translated into 
 
 ## Layer 2: Inference
 
-The analytical core where hypotheses generated in the Theory Layer are rigorously tested against data. The primary goal is to generate validated insights by separating statistically significant findings from random noise. This layer applies the appropriate statistical methods to test hypotheses and generate one of four types of insights: Observational, Comparative, Causal, or Predictive.
+The analytical core where hypotheses generated in the Theory Layer are rigorously tested against data. The primary goal is to generate validated insights by separating statistically significant findings from random noise. This layer applies the appropriate statistical methods to test hypotheses and generate one of four types of insights: *Observational*, *Comparative*, *Causal*, or *Predictive*.
 
 <p align="center">
   <img src="./assets/fw-l2.png" alt="product analytics framework" width="800">
@@ -188,7 +188,7 @@ This is the final and most critical layer, where analytical insights are transla
 
 #### **Main Components:**
 
-* **Actionable Insights** (L3·1): The validated outputs from the Inference Layer, categorized as Observational, Comparative, Causal, or Predictive.  
+* **Actionable Insights** (L3·1): The validated outputs from the Inference Layer, categorized as *Observational*, *Comparative*, *Causal*, or *Predictive*.  
 * **Action** (L3·2): The concrete implementation of an insight (e.g., shipping a feature, changing a user flow).  
 * **Product Strategy** (L3·3): The strategic influence of insights on the Product Strategy, Roadmap, and Tactics managed by the Product team.
 
@@ -199,7 +199,7 @@ This is the final and most critical layer, where analytical insights are transla
 
 ### Actionable Insights (L3·1)
 
-This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product or organization. These insights are the fuel for the Activation Layer.
+This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product. These insights are the fuel for the Activation Layer.
 
 <p align="center">
   <img src="./assets/actionable-insights.png" alt="product analytics framework" width="800">
@@ -209,8 +209,8 @@ This component represents the validated, high-confidence outputs from the Infere
 
 | Insight Type | Description | Typical Outcome |
 | :--- | :--- | :--- |
-| **Observational** | Based on the description of a phenomenon. | Leads to tactical improvements (e.g., "Users spend the most time on the homepage, let's improve its design"). |
-| **Comparative** | Related to a comparison between two or more groups. | Prompts further causal investigation (e.g., "Google users retain better than Facebook users, let's find out why"). |
+| **Observational** | Based on the description of a phenomenon. | Leads to tactical improvements (e.g., "Users spend the most time on *X* feature, let's improve its design"). |
+| **Comparative** | Related to a comparison between two or more groups. | Prompts further causal investigation (e.g., "*X* users retain better than *Y* users, let's find out why"). |
 | **Causal** | Identifies a cause-and-effect relationship. | Directly informs feature or campaign decisions (e.g., "Banner A *causes* more signups than Banner B, let's use Banner A"). |
 | **Predictive** | Related to forecasting future events. | Crucial for strategic planning and resource allocation (e.g., "We will need 5x server capacity by Q4"). |
 
