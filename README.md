@@ -18,6 +18,7 @@ A systematic framework for product analytics. A bottom-up process designed to co
 ### **Outline**
 
 * [Overview](overview)
+* [Key Roles](key-roles)
 * [Layer 1: Theory](layer-1-theory)
 * [Layer 2: Inference](layer-2-inference)
 * [Layer 3: Activation](layer-3-activation)
@@ -27,12 +28,7 @@ A systematic framework for product analytics. A bottom-up process designed to co
 
 ## **Overview**
 
-This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation. While the framework is a collaborative process, four key roles are central to its execution:
-
-* **UX Researcher:** Drives the *Exploration* phase by providing essential qualitative data, uncovering the "why" behind user behavior.
-* **Product Data Scientist:** Provides quantitative data and executes the analyses in the *Inference Layer* to generate validated insights.
-* **Product Manager:** Operates in the *Activation Layer*, using actionable insights to shape product strategy and make informed decisions.
-* **Product Engineer:** Key partner in the *Activation Layer*, responsible for translating product strategy and tactics into shipped features.
+This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation, a collaborative process between four key roles: UX Researcher, Product Data Scientist, Product Engineer, and Product Manager.
 
 <p align="center">
 <img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
@@ -41,6 +37,17 @@ This framework is the analytical engine for evidence-based product decisions. It
 </p>
 
 ---
+
+## **Key Roles**
+
+While product analytics is a collaborative effort, this framework is powered by the distinct contributions of four key roles. Each role owns a critical part of the process, and their interaction is essential for turning data into impactful product changes.
+
+| Role | Primary Layer(s) | Core Contribution |
+| :--- | :--- | :--- |
+| **UX Researcher** | `Theory (L1)` | Provides essential **Qualitative Data** by conducting user interviews, surveys, and usability studies to uncover the motivations and pain points—the "why"—behind user behavior. |
+| **Product Data Scientist** | `Theory (L1)` & `Inference (L2)` | Supplies **Quantitative Data** and executes all analyses in the **Inference Layer**—from EDA to advanced modeling—to generate validated, actionable insights. |
+| **Product Engineer** | `Activation (L3)` & `Theory (L1)` | Executes the **Action** by building and shipping features. Also enables the framework by instrumenting the product to generate the **Quantitative Data** needed for analysis. |
+| **Product Manager** | `Activation (L3)` | Consumes **Actionable Insights** to shape **Product Strategy**, define the **Roadmap**, and make evidence-based decisions, acting as the central hub for activating insights. |
 
 ## **Layer 1: Theory**
 
