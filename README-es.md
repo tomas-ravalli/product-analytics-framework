@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/paf-3l.png" alt="logo del marco de analítica de producto" width="250">
+<img src="./assets/es/paf-3l.png" alt="logo del marco de analítica de producto" width="250">
 <br>
 <a href="./README.md">English</a> | 
 <a href="./README-es.md">Español</a>
@@ -30,7 +30,7 @@ Este marco es el motor analítico para la toma de decisiones de producto basadas
 > **Teoría** → **Inferencia** → **Activación**
 
 <p align="center">
-<img src="./assets/gh-fw-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/gh-fw-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 1: Marco de Analítica de Producto</em>
 </p>
@@ -52,7 +52,7 @@ Si bien la analítica de producto es un esfuerzo colaborativo conjunto, este mar
 La capa fundamental donde los datos crudos se transforman en una comprensión estructurada del comportamiento del usuario. Su propósito es asegurar que se formulen las preguntas correctas y se formen teorías sólidas antes de comenzar el análisis. Esta capa sintetiza datos cualitativos y cuantitativos para construir teorías falsables e hipótesis comprobables.
 
 <p align="center">
-<img src="./assets/fw-l1-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/fw-l1-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 2: Marco de Analítica de Producto – Capa de Teoría (C1)</em>
 </p>
@@ -73,7 +73,7 @@ La capa fundamental donde los datos crudos se transforman en una comprensión es
 Esta fase inicial consiste en reunir la materia prima para la construcción de la teoría. Implica una asociación entre disciplinas cualitativas y cuantitativas para obtener una visión holística de la experiencia del usuario.
 
 <p align="center">
-<img src="./assets/exploration-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/exploration-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 3: Capa de Teoría – Exploración (C1·1)</em>
 </p>
@@ -88,7 +88,7 @@ Esta fase inicial consiste en reunir la materia prima para la construcción de l
 Una vez explorados los datos, el siguiente paso es sintetizarlos en un marco explicativo coherente o "modelo mental". No es solo una colección de hechos, sino una historia estructurada sobre cómo y por qué los usuarios se comportan de cierta manera. Una buena teoría es generalizable, objetiva, verificable, falsable y reproducible.
 
 <p align="center">
-<img src="./assets/theory-building-es.png" alt="marco de analítica de producto" width="400">
+<img src="./assets/es/theory-building-es.png" alt="marco de analítica de producto" width="400">
 <br>
 <em>Fig. 4: Capa de Teoría – Construcción de Teoría (C1·2)</em>
 </p>
@@ -104,7 +104,7 @@ Una vez explorados los datos, el siguiente paso es sintetizarlos en un marco exp
 El paso final en la Capa de Teoría, donde las teorías abstractas se traducen en enunciados concretos y comprobables. Es el puente crítico entre las ideas y las pruebas empíricas.
 
 <p align="center">
-<img src="./assets/hypothesis-generation-es.png" alt="marco de analítica de producto" width="400">
+<img src="./assets/es/hypothesis-generation-es.png" alt="marco de analítica de producto" width="400">
 <br>
 <em>Fig. 5: Capa de Teoría – Generación de Hipótesis (C1·3)</em>
 </p>
@@ -124,7 +124,7 @@ El paso final en la Capa de Teoría, donde las teorías abstractas se traducen e
 El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se prueban rigurosamente contra los datos. El objetivo principal es generar aprendizajes validados separando los hallazgos estadísticamente significativos del ruido aleatorio. Esta capa aplica los métodos estadísticos apropiados para probar hipótesis y generar uno de cuatro tipos de aprendizajes: *Observacional*, *Comparativo*, *Causal* o *Predictivo*.
 
 <p align="center">
-<img src="./assets/fw-l2-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/fw-l2-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 6: Marco de Analítica de Producto – Capa de Inferencia (C2)</em>
 </p>
@@ -144,7 +144,7 @@ El núcleo analítico donde las hipótesis generadas en la Capa de Teoría se pr
 Utiliza técnicas estadísticas fundamentales para describir el estado actual del producto y sus usuarios, generando aprendizajes *Observacionales* y *Comparativos*.
 
 <p align="center">
-<img src="./assets/foundational-analysis-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/foundational-analysis-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 7: Capa de Inferencia – Análisis Fundamental (C2·1)</em>
 </p>
@@ -160,7 +160,7 @@ Utiliza técnicas estadísticas fundamentales para describir el estado actual de
 Utiliza técnicas más sofisticadas para comprender la causalidad y predecir el comportamiento futuro, generando aprendizajes *Causales* y *Predictivos*.
 
 <p align="center">
-<img src="./assets/advanced-modeling-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/advanced-modeling-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 8: Capa de Inferencia – Modelado Avanzado (C2·2)</em>
 </p>
@@ -181,7 +181,7 @@ Utiliza técnicas más sofisticadas para comprender la causalidad y predecir el 
 Esta es la capa final y más crítica, donde los aprendizajes analíticos se traducen en acciones tangibles de negocio y producto. El objetivo es asegurar que el trabajo riguroso de las capas de Teoría e Inferencia conduzca a mejoras significativas del producto y a la alineación estratégica.
 
 <p align="center">
-<img src="./assets/fw-l3-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/fw-l3-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 9: Marco de Analítica de Producto – Capa de Activación (C3)</em>
 </p>
@@ -202,7 +202,7 @@ Esta es la capa final y más crítica, donde los aprendizajes analíticos se tra
 Este componente representa los resultados validados y de alta confianza de la Capa de Inferencia. Un aprendizaje se considera "accionable" cuando puede usarse para impulsar un cambio específico en el producto. Estos aprendizajes son el combustible para la Capa de Activación.
 
 <p align="center">
-<img src="./assets/actionable-aprendizajes-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/actionable-aprendizajes-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 10: Capa de Activación – Aprendizajes Accionables (C3·1)</em>
 </p>
@@ -219,7 +219,7 @@ Este componente representa los resultados validados y de alta confianza de la Ca
 Una **Acción** es la implementación concreta de un aprendizaje. Es el puente entre el mundo analítico y el producto en vivo. El éxito de todo el marco depende de la capacidad de traducir eficazmente los aprendizajes en acciones bien ejecutadas.
 
 <p align="center">
-<img src="./assets/action-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/action-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 11: Capa de Activación – Acción (C3·2)</em>
 </p>
@@ -234,7 +234,7 @@ Una **Acción** es la implementación concreta de un aprendizaje. Es el puente e
 Las acciones tomadas a partir de aprendizajes influyen y dan forma directamente a la dirección del producto en todos los niveles, desde la visión de alto nivel hasta la ejecución diaria. Este componente asegura que el producto evolucione basado en evidencia en lugar de solo en la intuición.
 
 <p align="center">
-<img src="./assets/product-strategy-es.png" alt="marco de analítica de producto" width="775">
+<img src="./assets/es/product-strategy-es.png" alt="marco de analítica de producto" width="775">
 <br>
 <em>Fig. 12: Capa de Activación – Estrategia de Producto (C3·3)</em>
 </p>
@@ -262,7 +262,7 @@ Este es el motor principal del desarrollo de productos, impulsando la evolución
 * **Por qué:** Para asegurar que los resultados del mundo real de cada acción informen la siguiente ronda de análisis y planificación estratégica.
 
 <p align="center">
-<img src="./assets/fbl-1-es.png" alt="bucle de retroalimentación de analítica de producto" width="450">
+<img src="./assets/es/fbl-1-es.png" alt="bucle de retroalimentación de analítica de producto" width="450">
 <br>
 <em>Fig. 13: El Bucle de Retroalimentación del Macro-Ciclo</em>
 </p>
@@ -276,7 +276,7 @@ Este bucle asegura que la comprensión del equipo sobre sus usuarios se actualic
 * **Por qué:** Para hacer que el marco se autocorrija forzando una reevaluación disciplinada de los supuestos basada en los resultados analíticos.
 
 <p align="center">
-<img src="./assets/fbl-2-es.png" alt="bucle de retroalimentación de analítica de producto" width="450">
+<img src="./assets/es/fbl-2-es.png" alt="bucle de retroalimentación de analítica de producto" width="450">
 <br>
 <em>Fig. 14: El Bucle de Retroalimentación de Refinamiento de la Teoría</em>
 </p>
