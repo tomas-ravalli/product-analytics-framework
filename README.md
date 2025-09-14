@@ -75,7 +75,7 @@ This initial phase is about gathering the raw materials for theory building. It 
 <p align="center">
 <img src="./assets/exploration.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 3: Theory Layer (L1) – Exploration</em>
+<em>Fig. 3: Theory Layer – Exploration (L1·1)</em>
 </p>
 
 | Data Type | Description | Source | Examples | Purpose |
@@ -90,7 +90,7 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 <p align="center">
 <img src="./assets/theory-building.png" alt="product analytics framework" width="400">
 <br>
-<em>Fig. 4: Theory Layer (L1) – Theory Building</em>
+<em>Fig. 4: Theory Layer – Theory Building  (L1·2)</em>
 </p>
 
 | Component | Description | Example | Purpose |
@@ -106,7 +106,7 @@ The final step in the Theory Layer, where abstract theories are translated into 
 <p align="center">
 <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="400">
 <br>
-<em>Fig. 5: Theory Layer (L1) – Hypothesis Generation</em>
+<em>Fig. 5: Theory Layer – Hypothesis Generation (L1·3)</em>
 </p>
 
 | Process | Description | Example | Purpose |
@@ -146,7 +146,7 @@ It uses fundamental statistical techniques to describe the current state of the 
 <p align="center">
 <img src="./assets/foundational-analysis.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 7: Inference Layer (L2) – Foundational Analysis</em>
+<em>Fig. 7: Inference Layer – Foundational Analysis (L2·1)</em>
 </p>
 
 | Method | Description | Purpose | Example |
@@ -162,7 +162,7 @@ It uses more sophisticated techniques to understand causality and predict future
 <p align="center">
 <img src="./assets/advanced-modeling.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 8: Inference Layer (L2) – Advanced Modeling</em>
+<em>Fig. 8: Inference Layer – Advanced Modeling (L2·2)</em>
 </p>
 
 | Method | Description | Purpose | Example |
@@ -204,7 +204,7 @@ This component represents the validated, high-confidence outputs from the Infere
 <p align="center">
 <img src="./assets/actionable-insights.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 10: Activation Layer (L3) – Actionable Insights</em>
+<em>Fig. 10: Activation Layer – Actionable Insights (L3·1)</em>
 </p>
 
 | Insight Type | Description | Typical Outcome |
@@ -221,7 +221,7 @@ An **Action** is the concrete implementation of an insight. It is the bridge bet
 <p align="center">
 <img src="./assets/action.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 11: Activation Layer (L3) – Action</em>
+<em>Fig. 11: Activation Layer – Action (L3·2)</em>
 </p>
 
 | Component | Description |
@@ -236,7 +236,7 @@ The actions taken based on insights directly influence and shape the product's d
 <p align="center">
 <img src="./assets/product-strategy.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 12: Activation Layer (L3) – Product Strategy</em>
+<em>Fig. 12: Activation Layer – Product Strategy (L3·3)</em>
 </p>
 
 | Strategic Artifact | Description | Impact of Insights |
