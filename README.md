@@ -9,6 +9,7 @@
 <p align="left">
 <a href="https://github.com/tomas-ravalli/product-analytics-framework/discussions" target="_blank"><img height=20 src="https://img.shields.io/badge/Discussions-Join-blue?logo=github"/></a>
 <a href="https://github.com/tomas-ravalli/product-analytics-framework/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License"></a>
+<img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework?style=social" alt="GitHub Stars">
 </p>
 
 A systematic framework for product analytics. A bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
