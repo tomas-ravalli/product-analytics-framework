@@ -44,8 +44,8 @@ While product analytics is a collaborative effort, this framework is powered by 
 
 | Role | Primary Layer(s) | Core Contribution |
 | :--- | :--- | :--- |
-| **UX Researcher** | `Theory (L1)` | Provides essential **Qualitative Data** by conducting user interviews, surveys, and usability studies to uncover the motivations and pain points—the "why"—behind user behavior. |
-| **Product Data Scientist** | `Theory (L1)` & `Inference (L2)` | Supplies **Quantitative Data** and executes all analyses in the **Inference Layer**—from EDA to advanced modeling—to generate validated, actionable insights. |
+| **UX Researcher** | `Theory (L1)` | Provides essential **Qualitative Data** by conducting user interviews, surveys, and usability studies to uncover the motivations and pain points –the "why"— behind user behavior. |
+| **Product Data Scientist** | `Theory (L1)` & `Inference (L2)` | Supplies **Quantitative Data** and executes all analyses in the **Inference Layer** —from EDA to advanced modeling— to generate validated, actionable insights. |
 | **Product Engineer** | `Activation (L3)` & `Theory (L1)` | Executes the **Action** by building and shipping features. Also enables the framework by instrumenting the product to generate the **Quantitative Data** needed for analysis. |
 | **Product Manager** | `Activation (L3)` | Consumes **Actionable Insights** to shape **Product Strategy**, define the **Roadmap**, and make evidence-based decisions, acting as the central hub for activating insights. |
 
