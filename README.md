@@ -27,7 +27,11 @@ A systematic framework for product analytics. A bottom-up process designed to co
 
 ## **Overview**
 
-This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
+This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation. While the framework is a collaborative process, three key roles are central to its execution:
+
+* **UX Researcher:** Drives the *Exploration* phase by providing essential qualitative data, uncovering the "why" behind user behavior.
+* **Product Data Scientist:** Provides quantitative data and executes the analyses in the *Inference Layer* to generate validated insights.
+* **Product Manager:** Operates in the *Activation Layer*, using actionable insights to shape product strategy and make informed decisions.
 
 <p align="center">
 <img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
@@ -168,7 +172,7 @@ This is the toolkit for answering complex strategic questions that go beyond sim
 
 ## **Layer 3: Activation**
 
-This is the final and most critical layer, where analytical insights are translated into tangible business and product actions. The goal of this layer is to ensure that the rigorous work done in the Theory and Inference layers leads to meaningful product improvements and strategic alignment. This is where data-informed becomes data-driven.
+This is the final and most critical layer, where analytical insights are translated into tangible business and product actions. The goal is to ensure that the rigorous work done in the Theory and Inference layers leads to meaningful product improvements and strategic alignment.
 
 <p align="center">
   <img src="./assets/fw-l3.png" alt="product analytics framework" width="800">
