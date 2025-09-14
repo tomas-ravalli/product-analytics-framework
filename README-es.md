@@ -1,5 +1,3 @@
-Claro. Aquí tienes la traducción completa del repositorio a español neutral, manteniendo toda la estructura y el formato.
-
 <p align="center">
 <img src="./assets/paf-3l.png" alt="logo del marco de analítica de producto" width="250">
 <br>
