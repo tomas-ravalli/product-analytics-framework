@@ -90,7 +90,7 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 <p align="center">
 <img src="./assets/theory-building.png" alt="product analytics framework" width="400">
 <br>
-<em>Fig. 4: Theory Layer – Theory Building  (L1·2)</em>
+<em>Fig. 4: Theory Layer – Theory Building (L1·2)</em>
 </p>
 
 | Component | Description | Example | Purpose |
