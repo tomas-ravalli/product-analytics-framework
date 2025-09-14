@@ -59,7 +59,7 @@ This is the foundational layer where raw data is transformed into a structured u
 #### **Main Components:**
 
 * **Exploration** (L1·1): The process of gathering and exploring Qualitative Data (interviews, surveys) and Quantitative Data (event logs, metrics) to understand the landscape.  
-* **Theory Building** (L1·2): Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Users are either 'Explorers' or 'Settlers'").  
+* **Theory Building** (L1·2): Creating conceptual models and User & Behavior Typologies to explain observed phenomena (e.g., "Users are either *Explorers* or *Settlers*").  
 * **Hypothesis Generation** (L1·3): Translating theories into specific, measurable statements by defining abstract concepts (Conceptualization), determining how to measure them (Operationalization), and creating tangible Metrics.
 
 <br>
