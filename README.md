@@ -18,7 +18,6 @@ A systematic framework for product analytics. A bottom-up process designed to co
 ### **Outline**
 
 * [Overview](overview)
-* [Key Roles](key-roles)
 * [Layer 1: Theory](layer-1-theory)
 * [Layer 2: Inference](layer-2-inference)
 * [Layer 3: Activation](layer-3-activation)
@@ -36,9 +35,7 @@ This framework is the analytical engine for evidence-based product decisions. It
 <em>Fig. 1: Product Analytics Framework</em>
 </p>
 
----
-
-## **Key Roles**
+### **Key Roles**
 
 While product analytics is a collaborative effort, this framework is powered by the distinct contributions of four key roles. Each role owns a critical part of the process, and their interaction is essential for turning data into impactful product changes.
 
