@@ -1,23 +1,23 @@
 <p align="center">
 <img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
 <br>
-<a href="./README.md">English</a> |
+<a href="./README.md">English</a> | 
 <a href="./README-es.md">Español</a>
 </p>
 
 # **Product Analytics Framework**
 <p align="left">
-<img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
-<img src="https://img.shields.io/badge/version-1.0-blue" alt="Project Version">
-<img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License">
+<a href="https://bun.com/discord" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
+<img src="https://img.shields.io/github/stars/oven-sh/bun" alt="stars">
 </p>
 
-This repository outlines a systematic framework for product analytics. It's a bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap. The framework is organized into three core layers: 
-> **Theory** → **Inference** → **Activation**
+A systematic framework for product analytics. A bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap. Organized into three core layers: 
+> **Theory** → **Inference** → **Activation** 
 
 ### **Outline**
 
-* [Framework Overview](framework-overview)
+* [Overview](overview)
 * [Layer 1: Theory](layer-1-theory)
 * [Layer 2: Inference](layer-2-inference)
 * [Layer 3: Activation](layer-3-activation)
@@ -25,7 +25,7 @@ This repository outlines a systematic framework for product analytics. It's a bo
 
 ---
 
-## **Framework Overview**
+## **Overview**
 
 This framework is the analytical engine for evidence-based product decisions. It moves from foundational understanding to rigorous testing and finally to strategic implementation.
 
