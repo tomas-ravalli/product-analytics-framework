@@ -32,7 +32,7 @@ This framework is the analytical engine for evidence-based product decisions. It
 * **UX Researcher:** Drives the *Exploration* phase by providing essential qualitative data, uncovering the "why" behind user behavior.
 * **Product Data Scientist:** Provides quantitative data and executes the analyses in the *Inference Layer* to generate validated insights.
 * **Product Manager:** Operates in the *Activation Layer*, using actionable insights to shape product strategy and make informed decisions.
-* **Product Engineer:** Key partner in the *Activation Layer*, responsible for translating product strategy and tactics into shipped features. Also provides crucial feedback on technical feasibility and opportunities, which informs the *Theory Layer*.
+* **Product Engineer:** Key partner in the *Activation Layer*, responsible for translating product strategy and tactics into shipped features.
 
 <p align="center">
 <img src="./assets/gh-fw.png" alt="product analytics framework" width="800">
