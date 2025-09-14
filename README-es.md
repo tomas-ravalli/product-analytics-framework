@@ -7,9 +7,9 @@
 
 # **Marco de Analítica de Producto**
 <p align="left">
-<a href="https://github.com/tomas-ravalli/product-analytics-framework/discussions" target="_blank"><img height=20 src="https://img.shields.io/badge/Discussions-Join-blue?logo=github"/></a>
+<a href="https://github.com/tomas-ravalli/product-analytics-framework/discussions" target="_blank"><img height=20 src="https://img.shields.io/badge/Discussions-Join-cobalt?logo=github"></a>
 <a href="https://github.com/tomas-ravalli/product-analytics-framework/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License"></a>
-<img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework?style=social" alt="GitHub Stars">
+<img height=20 src="https://img.shields.io/badge/v-1.0-blue">
 </p>
 
 Un marco sistemático para la analítica de producto. Un proceso ascendente diseñado para convertir datos crudos en aprendizajes validados que informan directamente la estrategia, las tácticas y la hoja de ruta de funcionalidades del producto.
