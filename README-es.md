@@ -12,7 +12,7 @@
 <img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework" alt="estrellas">
 </p>
 
-Un marco sistemático para la analítica de producto. Un proceso ascendente (bottom-up) diseñado para convertir datos brutos en insights validados que informan directamente la estrategia, las tácticas y la hoja de ruta de funcionalidades del producto.
+Un marco sistemático para la analítica de producto. Un proceso ascendente diseñado para convertir datos crudos en aprendizajes validados que informan directamente la estrategia, las tácticas y la hoja de ruta de funcionalidades del producto.
 
 ### **Índice**
 
