@@ -7,7 +7,7 @@
 
 # **Product Analytics Framework**
 <p align="left">
-<a href="https://discord.gg/7nNWB8UM" target="_blank"><img height=20 src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white"/></a>
+<a href="https://github.com/tomas-ravalli/product-analytics-framework/discussions" target="_blank"><img height=20 src="https://img.shields.io/badge/GitHub-Discussions-blue?logo=github"/></a>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License">
 <img src="https://img.shields.io/github/stars/tomas-ravalli/product-analytics-framework" alt="stars">
 </p>
@@ -52,9 +52,9 @@ While product analytics is a broad collaborative effort, this framework is power
 The foundational layer where raw data is transformed into a structured understanding of user behavior. Its purpose is to ensure the right questions are asked and solid theories are formed before analysis begins. This layer synthesizes qualitative and quantitative data to build falsifiable theories and testable hypotheses.
 
 <p align="center">
-  <img src="./assets/fw-l1.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 2: Product Analytics Framework – Theory Layer (L1)</em>
+<img src="./assets/fw-l1.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 2: Product Analytics Framework – Theory Layer (L1)</em>
 </p>
 
 #### **Main Components:**
@@ -73,9 +73,9 @@ The foundational layer where raw data is transformed into a structured understan
 This initial phase is about gathering the raw materials for theory building. It involves a partnership between qualitative and quantitative disciplines to get a holistic view of the user experience.
 
 <p align="center">
-  <img src="./assets/exploration.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 3: Theory Layer (L1) – Exploration</em>
+<img src="./assets/exploration.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 3: Theory Layer (L1) – Exploration</em>
 </p>
 
 | Data Type | Description | Source | Examples | Purpose |
@@ -88,9 +88,9 @@ This initial phase is about gathering the raw materials for theory building. It 
 Once data is explored, the next step is to synthesize it into a coherent, explanatory framework or "mental model". This is not just a collection of facts, but a structured story about how and why users behave the way they do. A good theory is generalizable, objective, verifiable, falsifiable, and reproducible.
 
 <p align="center">
-  <img src="./assets/theory-building.png" alt="product analytics framework" width="400">
-  <br>
-  <em>Fig. 4: Theory Layer (L1) – Theory Building</em>
+<img src="./assets/theory-building.png" alt="product analytics framework" width="400">
+<br>
+<em>Fig. 4: Theory Layer (L1) – Theory Building</em>
 </p>
 
 | Component | Description | Example | Purpose |
@@ -104,9 +104,9 @@ Once data is explored, the next step is to synthesize it into a coherent, explan
 The final step in the Theory Layer, where abstract theories are translated into concrete, testable statements. It’s the critical bridge between ideas and empirical testing.
 
 <p align="center">
-  <img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="400">
-  <br>
-  <em>Fig. 5: Theory Layer (L1) – Hypothesis Generation</em>
+<img src="./assets/hypothesis-generation.png" alt="product analytics framework" width="400">
+<br>
+<em>Fig. 5: Theory Layer (L1) – Hypothesis Generation</em>
 </p>
 
 | Process | Description | Example | Purpose |
@@ -124,9 +124,9 @@ The final step in the Theory Layer, where abstract theories are translated into 
 The analytical core where hypotheses generated in the Theory Layer are rigorously tested against data. The primary goal is to generate validated insights by separating statistically significant findings from random noise. This layer applies the appropriate statistical methods to test hypotheses and generate one of four types of insights: *Observational*, *Comparative*, *Causal*, or *Predictive*.
 
 <p align="center">
-  <img src="./assets/fw-l2.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 6: Product Analytics Framework – Inference Layer (L2)</em>
+<img src="./assets/fw-l2.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 6: Product Analytics Framework – Inference Layer (L2)</em>
 </p>
 
 #### **Main Components:**
@@ -144,9 +144,9 @@ The analytical core where hypotheses generated in the Theory Layer are rigorousl
 It uses fundamental statistical techniques to describe the current state of the product and its users, generating *Observational* and *Comparative* insights.
 
 <p align="center">
-  <img src="./assets/foundational-analysis.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 7: Inference Layer (L2) – Foundational Analysis</em>
+<img src="./assets/foundational-analysis.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 7: Inference Layer (L2) – Foundational Analysis</em>
 </p>
 
 | Method | Description | Purpose | Example |
@@ -160,9 +160,9 @@ It uses fundamental statistical techniques to describe the current state of the 
 It uses more sophisticated techniques to understand causality and predict future behavior, generating *Causal* and *Predictive* insights.
 
 <p align="center">
-  <img src="./assets/advanced-modeling.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 8: Inference Layer (L2) – Advanced Modeling</em>
+<img src="./assets/advanced-modeling.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 8: Inference Layer (L2) – Advanced Modeling</em>
 </p>
 
 | Method | Description | Purpose | Example |
@@ -181,9 +181,9 @@ It uses more sophisticated techniques to understand causality and predict future
 This is the final and most critical layer, where analytical insights are translated into tangible business and product actions. The goal is to ensure that the rigorous work done in the Theory and Inference layers leads to meaningful product improvements and strategic alignment.
 
 <p align="center">
-  <img src="./assets/fw-l3.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 9: Product Analytics Framework – Activation Layer (L3)</em>
+<img src="./assets/fw-l3.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 9: Product Analytics Framework – Activation Layer (L3)</em>
 </p>
 
 #### **Main Components:**
@@ -202,9 +202,9 @@ This is the final and most critical layer, where analytical insights are transla
 This component represents the validated, high-confidence outputs from the Inference Layer. An insight is considered "actionable" when it can be used to drive a specific change in the product. These insights are the fuel for the Activation Layer.
 
 <p align="center">
-  <img src="./assets/actionable-insights.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 10: Activation Layer (L3) – Actionable Insights</em>
+<img src="./assets/actionable-insights.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 10: Activation Layer (L3) – Actionable Insights</em>
 </p>
 
 | Insight Type | Description | Typical Outcome |
@@ -219,9 +219,9 @@ This component represents the validated, high-confidence outputs from the Infere
 An **Action** is the concrete implementation of an insight. It is the bridge between the analytical world and the live product. The success of the entire framework hinges on the ability to effectively translate insights into well-executed actions.
 
 <p align="center">
-  <img src="./assets/action.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 11: Activation Layer (L3) – Action</em>
+<img src="./assets/action.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 11: Activation Layer (L3) – Action</em>
 </p>
 
 | Component | Description |
@@ -234,9 +234,9 @@ An **Action** is the concrete implementation of an insight. It is the bridge bet
 The actions taken based on insights directly influence and shape the product's direction at all levels, from high-level vision to day-to-day execution. This component ensures that the product evolves based on evidence rather than solely on intuition.
 
 <p align="center">
-  <img src="./assets/product-strategy.png" alt="product analytics framework" width="800">
-  <br>
-  <em>Fig. 12: Activation Layer (L3) – Product Strategy</em>
+<img src="./assets/product-strategy.png" alt="product analytics framework" width="800">
+<br>
+<em>Fig. 12: Activation Layer (L3) – Product Strategy</em>
 </p>
 
 | Strategic Artifact | Description | Impact of Insights |
@@ -262,9 +262,9 @@ This is the primary engine of product development, driving the iterative evoluti
 * **Why:** To ensure that the real-world outcomes of every action inform the next round of analysis and strategic planning.
 
 <p align="center">
-  <img src="./assets/fbl-1.png" alt="product analytics feedback loop" width="450">
-  <br>
-  <em>Fig. 13: The Macro-Cycle Feedback Loop</em>
+<img src="./assets/fbl-1.png" alt="product analytics feedback loop" width="450">
+<br>
+<em>Fig. 13: The Macro-Cycle Feedback Loop</em>
 </p>
 
 ### **2. The Theory Refinement Cycle**
@@ -276,9 +276,9 @@ This loop ensures the team's understanding of its users is constantly updated wi
 * **Why:** To make the framework self-correcting by forcing a disciplined re-evaluation of assumptions based on analytical outcomes.
 
 <p align="center">
-  <img src="./assets/fbl-2.png" alt="product analytics feedback loop" width="450">
-  <br>
-  <em>Fig. 14: The Theory Refinement Feedback Loop</em>
+<img src="./assets/fbl-2.png" alt="product analytics feedback loop" width="450">
+<br>
+<em>Fig. 14: The Theory Refinement Feedback Loop</em>
 </p>
 
 </br>
