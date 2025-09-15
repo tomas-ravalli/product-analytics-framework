@@ -42,9 +42,9 @@ While product analytics is a broad collaborative effort, this framework is power
 | Role | Primary Layer(s) | Core Contribution |
 | :--- | :--- | :--- |
 | **UX Researcher** | `Theory (L1)` | Provides **Qualitative Data** by conducting user interviews, surveys, and usability studies to uncover the motivations and pain points –the "why"– behind user behavior. |
-| **Product Data Scientist** | `Theory (L1)` & `Inference (L2)` | Supplies **Quantitative Data** and executes all analyses in the **Inference Layer** –from EDA to advanced modeling– to generate validated, actionable insights. |
-| **Product Engineer** | `Activation (L3)` & `Theory (L1)` | Executes the **Action** by building and shipping features. Also enables the framework by engineering the collection of the **Quantitative Data** needed for analysis. |
-| **Product Designer** | `Activation (L3)` & `Theory (L1)` | Translates **Actionable Insights** and strategy into tangible user experiences, designing the wireframes, prototypes, and high-fidelity mockups that engineers build. |
+| **Product Data Scientist** | `Theory (L1)` `Inference (L2)` | Supplies **Quantitative Data** and executes all analyses in the **Inference Layer** –from EDA to advanced modeling– to generate validated, actionable insights. |
+| **Product Engineer** | `Activation (L3)` `Theory (L1)` | Executes the **Action** by building and shipping features. Also enables the framework by engineering the collection of the **Quantitative Data** needed for analysis. |
+| **Product Designer** | `Activation (L3)` `Theory (L1)` | Translates **Actionable Insights** and strategy into tangible user experiences, designing the wireframes, prototypes, and high-fidelity mockups that engineers build. |
 | **Product Manager** | `Activation (L3)` | Consumes **Actionable Insights** to shape **Product Strategy**, define the **Roadmap**, and make evidence-based decisions, acting as the central hub for activating insights. |
 
 ## **Layer 1: Theory**
