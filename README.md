@@ -289,4 +289,4 @@ This loop ensures the team's understanding of its users is constantly updated wi
 > * Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
 
 </br>
-<p align="center">🌐 © 2025 t.r.</p>
+<p align="center">🌐 © 2026 t.r.</p>
