@@ -7,7 +7,6 @@
 
 # **Product Science Framework**
 <p align="left">
-<a href="https://github.com/tomas-ravalli/product-analytics-framework/discussions" target="_blank"><img height=20 src="https://img.shields.io/badge/Discussions-Join-cobalt?logo=github"></a>
 <a href="https://github.com/tomas-ravalli/product-analytics-framework/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License"></a>
 <img height=20 src="https://img.shields.io/badge/v-1.1-blue">
 </p>
