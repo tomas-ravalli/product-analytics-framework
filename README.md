@@ -1,17 +1,17 @@
 <p align="center">
-<img src="./assets/paf-3l.png" alt="product science framework logo" width="250">
+<img src="./assets/paf-3l.png" alt="product analytics framework logo" width="250">
 <br>
 <a href="./README.md">English</a> | 
 <a href="./README-es.md">Español</a>
 </p>
 
-# **Product Science Framework**
+# **Product Analytics Framework**
 <p align="left">
 <a href="https://github.com/tomas-ravalli/product-analytics-framework/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License"></a>
 <img height=20 src="https://img.shields.io/badge/v-1.1-blue">
 </p>
 
-A systematic framework for product science. A bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
+A systematic framework for product analytics. A bottom-up process designed to convert raw data into validated insights that directly inform product strategy, tactics, and the feature roadmap.
 
 ### **Outline**
 
@@ -29,14 +29,14 @@ This framework is the analytical engine for evidence-based product decisions. It
 > **Theory** → **Inference** → **Activation** 
 
 <p align="center">
-<img src="./assets/gh-fw.png" alt="product science framework" width="775">
+<img src="./assets/gh-fw.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 1: Product Science Framework</em>
+<em>Fig. 1: Product Analytics Framework</em>
 </p>
 
 ### **Key Roles**
 
-While product science is a broad collaborative effort, this framework is powered by the distinct contributions of five key roles. Each role owns a critical part of the process, and their interaction is essential for turning data into impactful product changes.
+While product analytics is a broad collaborative effort, this framework is powered by the distinct contributions of five key roles. Each role owns a critical part of the process, and their interaction is essential for turning data into impactful product changes.
 
 | Role | Primary Layer(s) | Core Contribution |
 | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ The foundational layer where raw data is transformed into a structured understan
 <p align="center">
 <img src="./assets/fw-l1.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 2: Product Science Framework – Theory Layer (L1)</em>
+<em>Fig. 2: Product Analytics Framework – Theory Layer (L1)</em>
 </p>
 
 #### **Main Components:**
@@ -125,7 +125,7 @@ The analytical core where hypotheses generated in the Theory Layer are rigorousl
 <p align="center">
 <img src="./assets/fw-l2.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 6: Product Science Framework – Inference Layer (L2)</em>
+<em>Fig. 6: Product Analytics Framework – Inference Layer (L2)</em>
 </p>
 
 #### **Main Components:**
@@ -182,7 +182,7 @@ This is the final and most critical layer, where analytical insights are transla
 <p align="center">
 <img src="./assets/fw-l3.png" alt="product analytics framework" width="775">
 <br>
-<em>Fig. 9: Product Science Framework – Activation Layer (L3)</em>
+<em>Fig. 9: Product Analytics Framework – Activation Layer (L3)</em>
 </p>
 
 #### **Main Components:**
@@ -283,7 +283,7 @@ This loop ensures the team's understanding of its users is constantly updated wi
 </br>
 
 > **References**
-> * Rodrigues, J. (2021). *Product Science: Applied Data Science Techniques for Actionable Consumer Insights*. Addison-Wesley.
+> * Rodrigues, J. (2021). *Product Analytics: Applied Data Science Techniques for Actionable Consumer Insights*. Addison-Wesley.
 > * Croll, A., & Yoskovitz, B. (2013). *Lean Analytics: Use Data to Build a Better Startup Faster*. O'Reilly Media.
 > * Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
 
