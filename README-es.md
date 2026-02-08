@@ -288,4 +288,4 @@ Este bucle asegura que la comprensión del equipo sobre sus usuarios se actualic
 > * Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
 
 </br>
-<p align="center">🌐 © 2025 t.r.</p>
+<p align="center">© 2025 t.r.</p>
